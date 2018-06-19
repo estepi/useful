@@ -1,0 +1,1945 @@
+	name	description	page
+1	ensembl_gene_id	Gene stable ID	feature_page
+2	ensembl_gene_id_version	Gene stable ID version	feature_page
+3	ensembl_transcript_id	Transcript stable ID	feature_page
+4	ensembl_transcript_id_version	Transcript stable ID version	feature_page
+5	ensembl_peptide_id	Protein stable ID	feature_page
+6	ensembl_peptide_id_version	Protein stable ID version	feature_page
+7	ensembl_exon_id	Exon stable ID	feature_page
+8	description	Gene description	feature_page
+9	chromosome_name	Chromosome/scaffold name	feature_page
+10	start_position	Gene start (bp)	feature_page
+11	end_position	Gene end (bp)	feature_page
+12	strand	Strand	feature_page
+13	band	Karyotype band	feature_page
+14	transcript_start	Transcript start (bp)	feature_page
+15	transcript_end	Transcript end (bp)	feature_page
+16	transcription_start_site	Transcription start site (TSS)	feature_page
+17	transcript_length	Transcript length (including UTRs and CDS)	feature_page
+18	transcript_tsl	Transcript support level (TSL)	feature_page
+19	transcript_gencode_basic	GENCODE basic annotation	feature_page
+20	transcript_appris	APPRIS annotation	feature_page
+21	external_gene_name	Gene name	feature_page
+22	external_gene_source	Source of gene name	feature_page
+23	external_transcript_name	Transcript name	feature_page
+24	external_transcript_source_name	Source of transcript name	feature_page
+25	transcript_count	Transcript count	feature_page
+26	percentage_gene_gc_content	Gene % GC content	feature_page
+27	gene_biotype	Gene type	feature_page
+28	transcript_biotype	Transcript type	feature_page
+29	source	Source (gene)	feature_page
+30	transcript_source	Source (transcript)	feature_page
+31	version	Version (gene)	feature_page
+32	transcript_version	Version (transcript)	feature_page
+33	phenotype_description	Phenotype description	feature_page
+34	source_name	Source name	feature_page
+35	study_external_id	Study external reference	feature_page
+36	strain_name	Strain name	feature_page
+37	strain_gender	Strain gender	feature_page
+38	p_value	P value	feature_page
+39	go_id	GO term accession	feature_page
+40	name_1006	GO term name	feature_page
+41	definition_1006	GO term definition	feature_page
+42	go_linkage_type	GO term evidence code	feature_page
+43	namespace_1003	GO domain	feature_page
+44	goslim_goa_accession	GOSlim GOA Accession(s)	feature_page
+45	goslim_goa_description	GOSlim GOA Description	feature_page
+46	ccds	CCDS ID	feature_page
+47	chembl	ChEMBL ID	feature_page
+48	clone_based_ensembl_gene	Clone-based (Ensembl) gene ID	feature_page
+49	clone_based_ensembl_transcript	Clone-based (Ensembl) transcript ID	feature_page
+50	dbass3_name	DataBase of Aberrant 3' Splice Sites name	feature_page
+51	dbass3_id	DataBase of Aberrant 3' Splice Sites ID	feature_page
+52	dbass5_name	DataBase of Aberrant 5' Splice Sites name	feature_page
+53	dbass5_id	DataBase of Aberrant 5' Splice Sites ID	feature_page
+54	ens_hs_transcript	Ensembl Human Transcript ID	feature_page
+55	ens_hs_translation	Ensembl Human Translation ID	feature_page
+56	entrezgene_trans_name	EntrezGene transcript name ID	feature_page
+57	embl	European Nucleotide Archive ID	feature_page
+58	arrayexpress	Expression Atlas ID	feature_page
+59	genedb	GeneDB ID	feature_page
+60	ottp	Havana translation ID	feature_page
+61	hgnc_id	HGNC ID	feature_page
+62	hgnc_symbol	HGNC symbol	feature_page
+63	hgnc_trans_name	HGNC transcript name ID	feature_page
+64	hpa	Human Protein Atlas ID	feature_page
+65	protein_id	INSDC protein ID	feature_page
+66	kegg_enzyme	KEGG Pathway and Enzyme ID	feature_page
+67	ens_lrg_gene	LRG display in Ensembl gene ID	feature_page
+68	ens_lrg_transcript	LRG display in Ensembl transcript ID	feature_page
+69	merops	MEROPS - the Peptidase Database ID	feature_page
+70	mim_gene_description	MIM gene description	feature_page
+71	mim_gene_accession	MIM gene accession	feature_page
+72	mim_morbid_description	MIM morbid description	feature_page
+73	mim_morbid_accession	MIM morbid accession	feature_page
+74	mirbase_accession	miRBase accession	feature_page
+75	mirbase_id	miRBase ID	feature_page
+76	mirbase_trans_name	miRBase transcript name ID	feature_page
+77	entrezgene	NCBI gene ID	feature_page
+78	pdb	PDB ID	feature_page
+79	reactome	Reactome ID	feature_page
+80	reactome_gene	Reactome gene ID	feature_page
+81	reactome_transcript	Reactome transcript ID	feature_page
+82	refseq_mrna	RefSeq mRNA ID	feature_page
+83	refseq_mrna_predicted	RefSeq mRNA predicted ID	feature_page
+84	refseq_ncrna	RefSeq ncRNA ID	feature_page
+85	refseq_ncrna_predicted	RefSeq ncRNA predicted ID	feature_page
+86	refseq_peptide	RefSeq peptide ID	feature_page
+87	refseq_peptide_predicted	RefSeq peptide predicted ID	feature_page
+88	rfam	RFAM ID	feature_page
+89	rfam_trans_name	RFAM transcript name ID	feature_page
+90	rnacentral	RNAcentral ID	feature_page
+91	ucsc	UCSC Stable ID	feature_page
+92	uniparc	UniParc ID	feature_page
+93	uniprot_gn	UniProtKB Gene Name ID	feature_page
+94	uniprotswissprot	UniProtKB/Swiss-Prot ID	feature_page
+95	uniprotsptrembl	UniProtKB/TrEMBL ID	feature_page
+96	vega_translation	Vega translation ID	feature_page
+97	wikigene_description	WikiGene description	feature_page
+98	wikigene_name	WikiGene name	feature_page
+99	wikigene_id	WikiGene ID	feature_page
+100	affy_hc_g110	AFFY HC G110 probe	feature_page
+101	affy_hg_focus	AFFY HG Focus probe	feature_page
+102	affy_hg_u133a	AFFY HG U133A probe	feature_page
+103	affy_hg_u133a_2	AFFY HG U133A 2 probe	feature_page
+104	affy_hg_u133b	AFFY HG U133B probe	feature_page
+105	affy_hg_u133_plus_2	AFFY HG U133 Plus 2 probe	feature_page
+106	affy_hg_u95a	AFFY HG U95A probe	feature_page
+107	affy_hg_u95av2	AFFY HG U95Av2 probe	feature_page
+108	affy_hg_u95b	AFFY HG U95B probe	feature_page
+109	affy_hg_u95c	AFFY HG U95C probe	feature_page
+110	affy_hg_u95d	AFFY HG U95D probe	feature_page
+111	affy_hg_u95e	AFFY HG U95E probe	feature_page
+112	affy_hta_2_0	AFFY HTA 2 0 probe	feature_page
+113	affy_huex_1_0_st_v2	AFFY HuEx 1 0 st v2 probe	feature_page
+114	affy_hugenefl	AFFY HuGeneFL probe	feature_page
+115	affy_hugene_1_0_st_v1	AFFY HuGene 1 0 st v1 probe	feature_page
+116	affy_hugene_2_0_st_v1	AFFY HuGene 2 0 st v1 probe	feature_page
+117	affy_primeview	AFFY PrimeView probe	feature_page
+118	affy_u133_x3p	AFFY U133 X3P probe	feature_page
+119	agilent_cgh_44b	AGILENT CGH 44b probe	feature_page
+120	agilent_gpl6848	AGILENT GPL6848 probe	feature_page
+121	agilent_sureprint_g3_ge_8x60k	AGILENT SurePrint G3 GE 8x60k probe	feature_page
+122	agilent_sureprint_g3_ge_8x60k_v2	AGILENT SurePrint G3 GE 8x60k v2 probe	feature_page
+123	agilent_wholegenome	AGILENT WholeGenome probe	feature_page
+124	agilent_wholegenome_4x44k_v1	AGILENT WholeGenome 4x44k v1 probe	feature_page
+125	agilent_wholegenome_4x44k_v2	AGILENT WholeGenome 4x44k v2 probe	feature_page
+126	codelink_codelink	CODELINK CODELINK probe	feature_page
+127	illumina_humanht_12_v3	ILLUMINA HumanHT 12 V3 probe	feature_page
+128	illumina_humanht_12_v4	ILLUMINA HumanHT 12 V4 probe	feature_page
+129	illumina_humanref_8_v3	ILLUMINA HumanRef 8 V3 probe	feature_page
+130	illumina_humanwg_6_v1	ILLUMINA HumanWG 6 V1 probe	feature_page
+131	illumina_humanwg_6_v2	ILLUMINA HumanWG 6 V2 probe	feature_page
+132	illumina_humanwg_6_v3	ILLUMINA HumanWG 6 V3 probe	feature_page
+133	phalanx_onearray	PHALANX OneArray probe	feature_page
+134	family	Ensembl Protein Family ID(s)	feature_page
+135	family_description	Ensembl Family Description	feature_page
+136	gene3d	Gene3D ID	feature_page
+137	gene3d_start	Gene3D start	feature_page
+138	gene3d_end	Gene3D end	feature_page
+139	hamap	HAMAP ID	feature_page
+140	hamap_start	HAMAP start	feature_page
+141	hamap_end	HAMAP end	feature_page
+142	hmmpanther	hmmpanther ID	feature_page
+143	hmmpanther_start	hmmpanther start	feature_page
+144	hmmpanther_end	hmmpanther end	feature_page
+145	pfam	Pfam domain ID	feature_page
+146	pfam_start	Pfam domain start	feature_page
+147	pfam_end	Pfam domain end	feature_page
+148	pirsf	PIRSF domain ID	feature_page
+149	pirsf_start	PIRSF domain start	feature_page
+150	pirsf_end	PIRSF domain end	feature_page
+151	prints	Prints domain ID	feature_page
+152	prints_start	Prints domain start	feature_page
+153	prints_end	Prints domain end	feature_page
+154	blastprodom	blastprodom ID	feature_page
+155	blastprodom_start	blastprodom start	feature_page
+156	blastprodom_end	blastprodom end	feature_page
+157	scanprosite	PROSITE patterns ID	feature_page
+158	scanprosite_start	PROSITE patterns start	feature_page
+159	scanprosite_end	PROSITE patterns end	feature_page
+160	pfscan	PROSITE profiles ID	feature_page
+161	pfscan_start	PROSITE profiles start	feature_page
+162	pfscan_end	PROSITE profiles end	feature_page
+163	smart	SMART domains ID	feature_page
+164	smart_start	SMART domains start	feature_page
+165	smart_end	SMART domains end	feature_page
+166	superfamily	Superfamily domains ID	feature_page
+167	superfamily_start	Superfamily domains start	feature_page
+168	superfamily_end	Superfamily domains end	feature_page
+169	tigrfam	TIGRFAM domain ID	feature_page
+170	tigrfam_start	TIGRFAM domain start	feature_page
+171	tigrfam_end	TIGRFAM domain end	feature_page
+172	interpro	Interpro ID	feature_page
+173	interpro_short_description	Interpro Short Description	feature_page
+174	interpro_description	Interpro Description	feature_page
+175	interpro_start	Interpro start	feature_page
+176	interpro_end	Interpro end	feature_page
+177	sifts_import	PDB-ENSP mappings	feature_page
+178	sifts_import_start	PDB-ENSP mappings start	feature_page
+179	sifts_import_end	PDB-ENSP mappings end	feature_page
+180	cdd	CDD	feature_page
+181	cdd_start	CDD start	feature_page
+182	cdd_end	CDD end	feature_page
+183	mobidblite	MobiDBLite	feature_page
+184	mobidblite_start	MobiDBLite start	feature_page
+185	mobidblite_end	MobiDBLite end	feature_page
+186	ncoils	Coiled-coils (Ncoils)	feature_page
+187	ncoils_start	Coiled-coils (Ncoils) start	feature_page
+188	ncoils_end	Coiled-coils (Ncoils) end	feature_page
+189	seg	Low complexity (Seg)	feature_page
+190	seg_start	Low complexity (Seg) start	feature_page
+191	seg_end	Low complexity (Seg) end	feature_page
+192	sfld	SFLD	feature_page
+193	sfld_start	SFLD start	feature_page
+194	sfld_end	SFLD end	feature_page
+195	signalp	Cleavage site (Signalp)	feature_page
+196	signalp_start	Cleavage site (Signalp) start	feature_page
+197	signalp_end	Cleavage site (Signalp) end	feature_page
+198	tmhmm	Transmembrane helices	feature_page
+199	tmhmm_start	Transmembrane helices start	feature_page
+200	tmhmm_end	Transmembrane helices end	feature_page
+201	ensembl_gene_id	Gene stable ID	structure
+202	ensembl_transcript_id	Transcript stable ID	structure
+203	ensembl_peptide_id	Protein stable ID	structure
+204	chromosome_name	Chromosome/scaffold name	structure
+205	start_position	Gene start (bp)	structure
+206	end_position	Gene end (bp)	structure
+207	transcript_start	Transcript start (bp)	structure
+208	transcript_end	Transcript end (bp)	structure
+209	transcription_start_site	Transcription start site (TSS)	structure
+210	transcript_length	Transcript length (including UTRs and CDS)	structure
+211	strand	Strand	structure
+212	external_gene_name	Gene name	structure
+213	external_gene_source	Source of gene name	structure
+214	5_utr_start	5' UTR start	structure
+215	5_utr_end	5' UTR end	structure
+216	3_utr_start	3' UTR start	structure
+217	3_utr_end	3' UTR end	structure
+218	cds_length	CDS Length	structure
+219	transcript_count	Transcript count	structure
+220	description	Gene description	structure
+221	gene_biotype	Gene type	structure
+222	exon_chrom_start	Exon region start (bp)	structure
+223	exon_chrom_end	Exon region end (bp)	structure
+224	is_constitutive	Constitutive exon	structure
+225	rank	Exon rank in transcript	structure
+226	phase	Start phase	structure
+227	end_phase	End phase	structure
+228	cdna_coding_start	cDNA coding start	structure
+229	cdna_coding_end	cDNA coding end	structure
+230	genomic_coding_start	Genomic coding start	structure
+231	genomic_coding_end	Genomic coding end	structure
+232	ensembl_exon_id	Exon stable ID	structure
+233	cds_start	CDS start	structure
+234	cds_end	CDS end	structure
+235	ensembl_gene_id	Gene stable ID	homologs
+236	ensembl_transcript_id	Transcript stable ID	homologs
+237	ensembl_peptide_id	Protein stable ID	homologs
+238	chromosome_name	Chromosome/scaffold name	homologs
+239	start_position	Gene start (bp)	homologs
+240	end_position	Gene end (bp)	homologs
+241	strand	Strand	homologs
+242	band	Karyotype band	homologs
+243	external_gene_name	Gene name	homologs
+244	external_gene_source	Source of gene name	homologs
+245	transcript_count	Transcript count	homologs
+246	percentage_gene_gc_content	Gene % GC content	homologs
+247	description	Gene description	homologs
+248	mspretus_homolog_ensembl_gene	Algerian mouse gene stable ID	homologs
+249	mspretus_homolog_associated_gene_name	Algerian mouse gene name	homologs
+250	mspretus_homolog_ensembl_peptide	Algerian mouse protein or transcript stable ID	homologs
+251	mspretus_homolog_chromosome	Algerian mouse chromosome/scaffold name	homologs
+252	mspretus_homolog_chrom_start	Algerian mouse chromosome/scaffold start (bp)	homologs
+253	mspretus_homolog_chrom_end	Algerian mouse chromosome/scaffold end (bp)	homologs
+254	mspretus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+255	mspretus_homolog_subtype	Last common ancestor with Algerian mouse	homologs
+256	mspretus_homolog_orthology_type	Algerian mouse homology type	homologs
+257	mspretus_homolog_perc_id	%id. target Algerian mouse gene identical to query gene	homologs
+258	mspretus_homolog_perc_id_r1	%id. query gene identical to target Algerian mouse gene	homologs
+259	mspretus_homolog_goc_score	Algerian mouse Gene-order conservation score	homologs
+260	mspretus_homolog_wga_coverage	Algerian mouse Whole-genome alignment coverage	homologs
+261	mspretus_homolog_dn	dN with Algerian mouse	homologs
+262	mspretus_homolog_ds	dS with Algerian mouse	homologs
+263	mspretus_homolog_orthology_confidence	Algerian mouse orthology confidence [0 low, 1 high]	homologs
+264	vpacos_homolog_ensembl_gene	Alpaca gene stable ID	homologs
+265	vpacos_homolog_associated_gene_name	Alpaca gene name	homologs
+266	vpacos_homolog_ensembl_peptide	Alpaca protein or transcript stable ID	homologs
+267	vpacos_homolog_chromosome	Alpaca chromosome/scaffold name	homologs
+268	vpacos_homolog_chrom_start	Alpaca chromosome/scaffold start (bp)	homologs
+269	vpacos_homolog_chrom_end	Alpaca chromosome/scaffold end (bp)	homologs
+270	vpacos_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+271	vpacos_homolog_subtype	Last common ancestor with Alpaca	homologs
+272	vpacos_homolog_orthology_type	Alpaca homology type	homologs
+273	vpacos_homolog_perc_id	%id. target Alpaca gene identical to query gene	homologs
+274	vpacos_homolog_perc_id_r1	%id. query gene identical to target Alpaca gene	homologs
+275	vpacos_homolog_goc_score	Alpaca Gene-order conservation score	homologs
+276	vpacos_homolog_wga_coverage	Alpaca Whole-genome alignment coverage	homologs
+277	vpacos_homolog_dn	dN with Alpaca	homologs
+278	vpacos_homolog_ds	dS with Alpaca	homologs
+279	vpacos_homolog_orthology_confidence	Alpaca orthology confidence [0 low, 1 high]	homologs
+280	pformosa_homolog_ensembl_gene	Amazon molly gene stable ID	homologs
+281	pformosa_homolog_associated_gene_name	Amazon molly gene name	homologs
+282	pformosa_homolog_ensembl_peptide	Amazon molly protein or transcript stable ID	homologs
+283	pformosa_homolog_chromosome	Amazon molly chromosome/scaffold name	homologs
+284	pformosa_homolog_chrom_start	Amazon molly chromosome/scaffold start (bp)	homologs
+285	pformosa_homolog_chrom_end	Amazon molly chromosome/scaffold end (bp)	homologs
+286	pformosa_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+287	pformosa_homolog_subtype	Last common ancestor with Amazon molly	homologs
+288	pformosa_homolog_orthology_type	Amazon molly homology type	homologs
+289	pformosa_homolog_perc_id	%id. target Amazon molly gene identical to query gene	homologs
+290	pformosa_homolog_perc_id_r1	%id. query gene identical to target Amazon molly gene	homologs
+291	pformosa_homolog_goc_score	Amazon molly Gene-order conservation score	homologs
+292	pformosa_homolog_wga_coverage	Amazon molly Whole-genome alignment coverage	homologs
+293	pformosa_homolog_dn	dN with Amazon molly	homologs
+294	pformosa_homolog_ds	dS with Amazon molly	homologs
+295	pformosa_homolog_orthology_confidence	Amazon molly orthology confidence [0 low, 1 high]	homologs
+296	cpalliatus_homolog_ensembl_gene	Angola colobus gene stable ID	homologs
+297	cpalliatus_homolog_associated_gene_name	Angola colobus gene name	homologs
+298	cpalliatus_homolog_ensembl_peptide	Angola colobus protein or transcript stable ID	homologs
+299	cpalliatus_homolog_chromosome	Angola colobus chromosome/scaffold name	homologs
+300	cpalliatus_homolog_chrom_start	Angola colobus chromosome/scaffold start (bp)	homologs
+301	cpalliatus_homolog_chrom_end	Angola colobus chromosome/scaffold end (bp)	homologs
+302	cpalliatus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+303	cpalliatus_homolog_subtype	Last common ancestor with Angola colobus	homologs
+304	cpalliatus_homolog_orthology_type	Angola colobus homology type	homologs
+305	cpalliatus_homolog_perc_id	%id. target Angola colobus gene identical to query gene	homologs
+306	cpalliatus_homolog_perc_id_r1	%id. query gene identical to target Angola colobus gene	homologs
+307	cpalliatus_homolog_goc_score	Angola colobus Gene-order conservation score	homologs
+308	cpalliatus_homolog_wga_coverage	Angola colobus Whole-genome alignment coverage	homologs
+309	cpalliatus_homolog_dn	dN with Angola colobus	homologs
+310	cpalliatus_homolog_ds	dS with Angola colobus	homologs
+311	cpalliatus_homolog_orthology_confidence	Angola colobus orthology confidence [0 low, 1 high]	homologs
+312	acarolinensis_homolog_ensembl_gene	Anole lizard gene stable ID	homologs
+313	acarolinensis_homolog_associated_gene_name	Anole lizard gene name	homologs
+314	acarolinensis_homolog_ensembl_peptide	Anole lizard protein or transcript stable ID	homologs
+315	acarolinensis_homolog_chromosome	Anole lizard chromosome/scaffold name	homologs
+316	acarolinensis_homolog_chrom_start	Anole lizard chromosome/scaffold start (bp)	homologs
+317	acarolinensis_homolog_chrom_end	Anole lizard chromosome/scaffold end (bp)	homologs
+318	acarolinensis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+319	acarolinensis_homolog_subtype	Last common ancestor with Anole lizard	homologs
+320	acarolinensis_homolog_orthology_type	Anole lizard homology type	homologs
+321	acarolinensis_homolog_perc_id	%id. target Anole lizard gene identical to query gene	homologs
+322	acarolinensis_homolog_perc_id_r1	%id. query gene identical to target Anole lizard gene	homologs
+323	acarolinensis_homolog_goc_score	Anole lizard Gene-order conservation score	homologs
+324	acarolinensis_homolog_wga_coverage	Anole lizard Whole-genome alignment coverage	homologs
+325	acarolinensis_homolog_dn	dN with Anole lizard	homologs
+326	acarolinensis_homolog_ds	dS with Anole lizard	homologs
+327	acarolinensis_homolog_orthology_confidence	Anole lizard orthology confidence [0 low, 1 high]	homologs
+328	dnovemcinctus_homolog_ensembl_gene	Armadillo gene stable ID	homologs
+329	dnovemcinctus_homolog_associated_gene_name	Armadillo gene name	homologs
+330	dnovemcinctus_homolog_ensembl_peptide	Armadillo protein or transcript stable ID	homologs
+331	dnovemcinctus_homolog_chromosome	Armadillo chromosome/scaffold name	homologs
+332	dnovemcinctus_homolog_chrom_start	Armadillo chromosome/scaffold start (bp)	homologs
+333	dnovemcinctus_homolog_chrom_end	Armadillo chromosome/scaffold end (bp)	homologs
+334	dnovemcinctus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+335	dnovemcinctus_homolog_subtype	Last common ancestor with Armadillo	homologs
+336	dnovemcinctus_homolog_orthology_type	Armadillo homology type	homologs
+337	dnovemcinctus_homolog_perc_id	%id. target Armadillo gene identical to query gene	homologs
+338	dnovemcinctus_homolog_perc_id_r1	%id. query gene identical to target Armadillo gene	homologs
+339	dnovemcinctus_homolog_goc_score	Armadillo Gene-order conservation score	homologs
+340	dnovemcinctus_homolog_wga_coverage	Armadillo Whole-genome alignment coverage	homologs
+341	dnovemcinctus_homolog_dn	dN with Armadillo	homologs
+342	dnovemcinctus_homolog_ds	dS with Armadillo	homologs
+343	dnovemcinctus_homolog_orthology_confidence	Armadillo orthology confidence [0 low, 1 high]	homologs
+344	rbieti_homolog_ensembl_gene	Black snub-nosed monkey gene stable ID	homologs
+345	rbieti_homolog_associated_gene_name	Black snub-nosed monkey gene name	homologs
+346	rbieti_homolog_ensembl_peptide	Black snub-nosed monkey protein or transcript stable ID	homologs
+347	rbieti_homolog_chromosome	Black snub-nosed monkey chromosome/scaffold name	homologs
+348	rbieti_homolog_chrom_start	Black snub-nosed monkey chromosome/scaffold start (bp)	homologs
+349	rbieti_homolog_chrom_end	Black snub-nosed monkey chromosome/scaffold end (bp)	homologs
+350	rbieti_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+351	rbieti_homolog_subtype	Last common ancestor with Black snub-nosed monkey	homologs
+352	rbieti_homolog_orthology_type	Black snub-nosed monkey homology type	homologs
+353	rbieti_homolog_perc_id	%id. target Black snub-nosed monkey gene identical to query gene	homologs
+354	rbieti_homolog_perc_id_r1	%id. query gene identical to target Black snub-nosed monkey gene	homologs
+355	rbieti_homolog_goc_score	Black snub-nosed monkey Gene-order conservation score	homologs
+356	rbieti_homolog_wga_coverage	Black snub-nosed monkey Whole-genome alignment coverage	homologs
+357	rbieti_homolog_dn	dN with Black snub-nosed monkey	homologs
+358	rbieti_homolog_ds	dS with Black snub-nosed monkey	homologs
+359	rbieti_homolog_orthology_confidence	Black snub-nosed monkey orthology confidence [0 low, 1 high]	homologs
+360	sboliviensis_homolog_ensembl_gene	Bolivian squirrel monkey gene stable ID	homologs
+361	sboliviensis_homolog_associated_gene_name	Bolivian squirrel monkey gene name	homologs
+362	sboliviensis_homolog_ensembl_peptide	Bolivian squirrel monkey protein or transcript stable ID	homologs
+363	sboliviensis_homolog_chromosome	Bolivian squirrel monkey chromosome/scaffold name	homologs
+364	sboliviensis_homolog_chrom_start	Bolivian squirrel monkey chromosome/scaffold start (bp)	homologs
+365	sboliviensis_homolog_chrom_end	Bolivian squirrel monkey chromosome/scaffold end (bp)	homologs
+366	sboliviensis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+367	sboliviensis_homolog_subtype	Last common ancestor with Bolivian squirrel monkey	homologs
+368	sboliviensis_homolog_orthology_type	Bolivian squirrel monkey homology type	homologs
+369	sboliviensis_homolog_perc_id	%id. target Bolivian squirrel monkey gene identical to query gene	homologs
+370	sboliviensis_homolog_perc_id_r1	%id. query gene identical to target Bolivian squirrel monkey gene	homologs
+371	sboliviensis_homolog_goc_score	Bolivian squirrel monkey Gene-order conservation score	homologs
+372	sboliviensis_homolog_wga_coverage	Bolivian squirrel monkey Whole-genome alignment coverage	homologs
+373	sboliviensis_homolog_dn	dN with Bolivian squirrel monkey	homologs
+374	sboliviensis_homolog_ds	dS with Bolivian squirrel monkey	homologs
+375	sboliviensis_homolog_orthology_confidence	Bolivian squirrel monkey orthology confidence [0 low, 1 high]	homologs
+376	ppaniscus_homolog_ensembl_gene	Bonobo gene stable ID	homologs
+377	ppaniscus_homolog_associated_gene_name	Bonobo gene name	homologs
+378	ppaniscus_homolog_ensembl_peptide	Bonobo protein or transcript stable ID	homologs
+379	ppaniscus_homolog_chromosome	Bonobo chromosome/scaffold name	homologs
+380	ppaniscus_homolog_chrom_start	Bonobo chromosome/scaffold start (bp)	homologs
+381	ppaniscus_homolog_chrom_end	Bonobo chromosome/scaffold end (bp)	homologs
+382	ppaniscus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+383	ppaniscus_homolog_subtype	Last common ancestor with Bonobo	homologs
+384	ppaniscus_homolog_orthology_type	Bonobo homology type	homologs
+385	ppaniscus_homolog_perc_id	%id. target Bonobo gene identical to query gene	homologs
+386	ppaniscus_homolog_perc_id_r1	%id. query gene identical to target Bonobo gene	homologs
+387	ppaniscus_homolog_goc_score	Bonobo Gene-order conservation score	homologs
+388	ppaniscus_homolog_wga_coverage	Bonobo Whole-genome alignment coverage	homologs
+389	ppaniscus_homolog_dn	dN with Bonobo	homologs
+390	ppaniscus_homolog_ds	dS with Bonobo	homologs
+391	ppaniscus_homolog_orthology_confidence	Bonobo orthology confidence [0 low, 1 high]	homologs
+392	caperea_homolog_ensembl_gene	Brazilian guinea pig gene stable ID	homologs
+393	caperea_homolog_associated_gene_name	Brazilian guinea pig gene name	homologs
+394	caperea_homolog_ensembl_peptide	Brazilian guinea pig protein or transcript stable ID	homologs
+395	caperea_homolog_chromosome	Brazilian guinea pig chromosome/scaffold name	homologs
+396	caperea_homolog_chrom_start	Brazilian guinea pig chromosome/scaffold start (bp)	homologs
+397	caperea_homolog_chrom_end	Brazilian guinea pig chromosome/scaffold end (bp)	homologs
+398	caperea_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+399	caperea_homolog_subtype	Last common ancestor with Brazilian guinea pig	homologs
+400	caperea_homolog_orthology_type	Brazilian guinea pig homology type	homologs
+401	caperea_homolog_perc_id	%id. target Brazilian guinea pig gene identical to query gene	homologs
+402	caperea_homolog_perc_id_r1	%id. query gene identical to target Brazilian guinea pig gene	homologs
+403	caperea_homolog_goc_score	Brazilian guinea pig Gene-order conservation score	homologs
+404	caperea_homolog_wga_coverage	Brazilian guinea pig Whole-genome alignment coverage	homologs
+405	caperea_homolog_dn	dN with Brazilian guinea pig	homologs
+406	caperea_homolog_ds	dS with Brazilian guinea pig	homologs
+407	caperea_homolog_orthology_confidence	Brazilian guinea pig orthology confidence [0 low, 1 high]	homologs
+408	ogarnettii_homolog_ensembl_gene	Bushbaby gene stable ID	homologs
+409	ogarnettii_homolog_associated_gene_name	Bushbaby gene name	homologs
+410	ogarnettii_homolog_ensembl_peptide	Bushbaby protein or transcript stable ID	homologs
+411	ogarnettii_homolog_chromosome	Bushbaby chromosome/scaffold name	homologs
+412	ogarnettii_homolog_chrom_start	Bushbaby chromosome/scaffold start (bp)	homologs
+413	ogarnettii_homolog_chrom_end	Bushbaby chromosome/scaffold end (bp)	homologs
+414	ogarnettii_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+415	ogarnettii_homolog_subtype	Last common ancestor with Bushbaby	homologs
+416	ogarnettii_homolog_orthology_type	Bushbaby homology type	homologs
+417	ogarnettii_homolog_perc_id	%id. target Bushbaby gene identical to query gene	homologs
+418	ogarnettii_homolog_perc_id_r1	%id. query gene identical to target Bushbaby gene	homologs
+419	ogarnettii_homolog_goc_score	Bushbaby Gene-order conservation score	homologs
+420	ogarnettii_homolog_wga_coverage	Bushbaby Whole-genome alignment coverage	homologs
+421	ogarnettii_homolog_dn	dN with Bushbaby	homologs
+422	ogarnettii_homolog_ds	dS with Bushbaby	homologs
+423	ogarnettii_homolog_orthology_confidence	Bushbaby orthology confidence [0 low, 1 high]	homologs
+424	cintestinalis_homolog_ensembl_gene	C.intestinalis gene stable ID	homologs
+425	cintestinalis_homolog_associated_gene_name	C.intestinalis gene name	homologs
+426	cintestinalis_homolog_ensembl_peptide	C.intestinalis protein or transcript stable ID	homologs
+427	cintestinalis_homolog_chromosome	C.intestinalis chromosome/scaffold name	homologs
+428	cintestinalis_homolog_chrom_start	C.intestinalis chromosome/scaffold start (bp)	homologs
+429	cintestinalis_homolog_chrom_end	C.intestinalis chromosome/scaffold end (bp)	homologs
+430	cintestinalis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+431	cintestinalis_homolog_subtype	Last common ancestor with C.intestinalis	homologs
+432	cintestinalis_homolog_orthology_type	C.intestinalis homology type	homologs
+433	cintestinalis_homolog_perc_id	%id. target C.intestinalis gene identical to query gene	homologs
+434	cintestinalis_homolog_perc_id_r1	%id. query gene identical to target C.intestinalis gene	homologs
+435	cintestinalis_homolog_goc_score	C.intestinalis Gene-order conservation score	homologs
+436	cintestinalis_homolog_wga_coverage	C.intestinalis Whole-genome alignment coverage	homologs
+437	cintestinalis_homolog_dn	dN with C.intestinalis	homologs
+438	cintestinalis_homolog_ds	dS with C.intestinalis	homologs
+439	cintestinalis_homolog_orthology_confidence	C.intestinalis orthology confidence [0 low, 1 high]	homologs
+440	csavignyi_homolog_ensembl_gene	C.savignyi gene stable ID	homologs
+441	csavignyi_homolog_associated_gene_name	C.savignyi gene name	homologs
+442	csavignyi_homolog_ensembl_peptide	C.savignyi protein or transcript stable ID	homologs
+443	csavignyi_homolog_chromosome	C.savignyi chromosome/scaffold name	homologs
+444	csavignyi_homolog_chrom_start	C.savignyi chromosome/scaffold start (bp)	homologs
+445	csavignyi_homolog_chrom_end	C.savignyi chromosome/scaffold end (bp)	homologs
+446	csavignyi_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+447	csavignyi_homolog_subtype	Last common ancestor with C.savignyi	homologs
+448	csavignyi_homolog_orthology_type	C.savignyi homology type	homologs
+449	csavignyi_homolog_perc_id	%id. target C.savignyi gene identical to query gene	homologs
+450	csavignyi_homolog_perc_id_r1	%id. query gene identical to target C.savignyi gene	homologs
+451	csavignyi_homolog_goc_score	C.savignyi Gene-order conservation score	homologs
+452	csavignyi_homolog_wga_coverage	C.savignyi Whole-genome alignment coverage	homologs
+453	csavignyi_homolog_dn	dN with C.savignyi	homologs
+454	csavignyi_homolog_ds	dS with C.savignyi	homologs
+455	csavignyi_homolog_orthology_confidence	C.savignyi orthology confidence [0 low, 1 high]	homologs
+456	celegans_homolog_ensembl_gene	Caenorhabditis elegans gene stable ID	homologs
+457	celegans_homolog_associated_gene_name	Caenorhabditis elegans gene name	homologs
+458	celegans_homolog_ensembl_peptide	Caenorhabditis elegans protein or transcript stable ID	homologs
+459	celegans_homolog_chromosome	Caenorhabditis elegans chromosome/scaffold name	homologs
+460	celegans_homolog_chrom_start	Caenorhabditis elegans chromosome/scaffold start (bp)	homologs
+461	celegans_homolog_chrom_end	Caenorhabditis elegans chromosome/scaffold end (bp)	homologs
+462	celegans_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+463	celegans_homolog_subtype	Last common ancestor with Caenorhabditis elegans	homologs
+464	celegans_homolog_orthology_type	Caenorhabditis elegans homology type	homologs
+465	celegans_homolog_perc_id	%id. target Caenorhabditis elegans gene identical to query gene	homologs
+466	celegans_homolog_perc_id_r1	%id. query gene identical to target Caenorhabditis elegans gene	homologs
+467	celegans_homolog_goc_score	Caenorhabditis elegans Gene-order conservation score	homologs
+468	celegans_homolog_wga_coverage	Caenorhabditis elegans Whole-genome alignment coverage	homologs
+469	celegans_homolog_dn	dN with Caenorhabditis elegans	homologs
+470	celegans_homolog_ds	dS with Caenorhabditis elegans	homologs
+471	celegans_homolog_orthology_confidence	Caenorhabditis elegans orthology confidence [0 low, 1 high]	homologs
+472	ccapucinus_homolog_ensembl_gene	Capuchin gene stable ID	homologs
+473	ccapucinus_homolog_associated_gene_name	Capuchin gene name	homologs
+474	ccapucinus_homolog_ensembl_peptide	Capuchin protein or transcript stable ID	homologs
+475	ccapucinus_homolog_chromosome	Capuchin chromosome/scaffold name	homologs
+476	ccapucinus_homolog_chrom_start	Capuchin chromosome/scaffold start (bp)	homologs
+477	ccapucinus_homolog_chrom_end	Capuchin chromosome/scaffold end (bp)	homologs
+478	ccapucinus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+479	ccapucinus_homolog_subtype	Last common ancestor with Capuchin	homologs
+480	ccapucinus_homolog_orthology_type	Capuchin homology type	homologs
+481	ccapucinus_homolog_perc_id	%id. target Capuchin gene identical to query gene	homologs
+482	ccapucinus_homolog_perc_id_r1	%id. query gene identical to target Capuchin gene	homologs
+483	ccapucinus_homolog_goc_score	Capuchin Gene-order conservation score	homologs
+484	ccapucinus_homolog_wga_coverage	Capuchin Whole-genome alignment coverage	homologs
+485	ccapucinus_homolog_dn	dN with Capuchin	homologs
+486	ccapucinus_homolog_ds	dS with Capuchin	homologs
+487	ccapucinus_homolog_orthology_confidence	Capuchin orthology confidence [0 low, 1 high]	homologs
+488	fcatus_homolog_ensembl_gene	Cat gene stable ID	homologs
+489	fcatus_homolog_associated_gene_name	Cat gene name	homologs
+490	fcatus_homolog_ensembl_peptide	Cat protein or transcript stable ID	homologs
+491	fcatus_homolog_chromosome	Cat chromosome/scaffold name	homologs
+492	fcatus_homolog_chrom_start	Cat chromosome/scaffold start (bp)	homologs
+493	fcatus_homolog_chrom_end	Cat chromosome/scaffold end (bp)	homologs
+494	fcatus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+495	fcatus_homolog_subtype	Last common ancestor with Cat	homologs
+496	fcatus_homolog_orthology_type	Cat homology type	homologs
+497	fcatus_homolog_perc_id	%id. target Cat gene identical to query gene	homologs
+498	fcatus_homolog_perc_id_r1	%id. query gene identical to target Cat gene	homologs
+499	fcatus_homolog_goc_score	Cat Gene-order conservation score	homologs
+500	fcatus_homolog_wga_coverage	Cat Whole-genome alignment coverage	homologs
+501	fcatus_homolog_dn	dN with Cat	homologs
+502	fcatus_homolog_ds	dS with Cat	homologs
+503	fcatus_homolog_orthology_confidence	Cat orthology confidence [0 low, 1 high]	homologs
+504	amexicanus_homolog_ensembl_gene	Cave fish gene stable ID	homologs
+505	amexicanus_homolog_associated_gene_name	Cave fish gene name	homologs
+506	amexicanus_homolog_ensembl_peptide	Cave fish protein or transcript stable ID	homologs
+507	amexicanus_homolog_chromosome	Cave fish chromosome/scaffold name	homologs
+508	amexicanus_homolog_chrom_start	Cave fish chromosome/scaffold start (bp)	homologs
+509	amexicanus_homolog_chrom_end	Cave fish chromosome/scaffold end (bp)	homologs
+510	amexicanus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+511	amexicanus_homolog_subtype	Last common ancestor with Cave fish	homologs
+512	amexicanus_homolog_orthology_type	Cave fish homology type	homologs
+513	amexicanus_homolog_perc_id	%id. target Cave fish gene identical to query gene	homologs
+514	amexicanus_homolog_perc_id_r1	%id. query gene identical to target Cave fish gene	homologs
+515	amexicanus_homolog_goc_score	Cave fish Gene-order conservation score	homologs
+516	amexicanus_homolog_wga_coverage	Cave fish Whole-genome alignment coverage	homologs
+517	amexicanus_homolog_dn	dN with Cave fish	homologs
+518	amexicanus_homolog_ds	dS with Cave fish	homologs
+519	amexicanus_homolog_orthology_confidence	Cave fish orthology confidence [0 low, 1 high]	homologs
+520	ggallus_homolog_ensembl_gene	Chicken gene stable ID	homologs
+521	ggallus_homolog_associated_gene_name	Chicken gene name	homologs
+522	ggallus_homolog_ensembl_peptide	Chicken protein or transcript stable ID	homologs
+523	ggallus_homolog_chromosome	Chicken chromosome/scaffold name	homologs
+524	ggallus_homolog_chrom_start	Chicken chromosome/scaffold start (bp)	homologs
+525	ggallus_homolog_chrom_end	Chicken chromosome/scaffold end (bp)	homologs
+526	ggallus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+527	ggallus_homolog_subtype	Last common ancestor with Chicken	homologs
+528	ggallus_homolog_orthology_type	Chicken homology type	homologs
+529	ggallus_homolog_perc_id	%id. target Chicken gene identical to query gene	homologs
+530	ggallus_homolog_perc_id_r1	%id. query gene identical to target Chicken gene	homologs
+531	ggallus_homolog_goc_score	Chicken Gene-order conservation score	homologs
+532	ggallus_homolog_wga_coverage	Chicken Whole-genome alignment coverage	homologs
+533	ggallus_homolog_dn	dN with Chicken	homologs
+534	ggallus_homolog_ds	dS with Chicken	homologs
+535	ggallus_homolog_orthology_confidence	Chicken orthology confidence [0 low, 1 high]	homologs
+536	ptroglodytes_homolog_ensembl_gene	Chimpanzee gene stable ID	homologs
+537	ptroglodytes_homolog_associated_gene_name	Chimpanzee gene name	homologs
+538	ptroglodytes_homolog_ensembl_peptide	Chimpanzee protein or transcript stable ID	homologs
+539	ptroglodytes_homolog_chromosome	Chimpanzee chromosome/scaffold name	homologs
+540	ptroglodytes_homolog_chrom_start	Chimpanzee chromosome/scaffold start (bp)	homologs
+541	ptroglodytes_homolog_chrom_end	Chimpanzee chromosome/scaffold end (bp)	homologs
+542	ptroglodytes_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+543	ptroglodytes_homolog_subtype	Last common ancestor with Chimpanzee	homologs
+544	ptroglodytes_homolog_orthology_type	Chimpanzee homology type	homologs
+545	ptroglodytes_homolog_perc_id	%id. target Chimpanzee gene identical to query gene	homologs
+546	ptroglodytes_homolog_perc_id_r1	%id. query gene identical to target Chimpanzee gene	homologs
+547	ptroglodytes_homolog_goc_score	Chimpanzee Gene-order conservation score	homologs
+548	ptroglodytes_homolog_wga_coverage	Chimpanzee Whole-genome alignment coverage	homologs
+549	ptroglodytes_homolog_dn	dN with Chimpanzee	homologs
+550	ptroglodytes_homolog_ds	dS with Chimpanzee	homologs
+551	ptroglodytes_homolog_orthology_confidence	Chimpanzee orthology confidence [0 low, 1 high]	homologs
+552	cchok1gshd_homolog_ensembl_gene	Chinese hamster CHOK1GS gene stable ID	homologs
+553	cchok1gshd_homolog_associated_gene_name	Chinese hamster CHOK1GS gene name	homologs
+554	cchok1gshd_homolog_ensembl_peptide	Chinese hamster CHOK1GS protein or transcript stable ID	homologs
+555	cchok1gshd_homolog_chromosome	Chinese hamster CHOK1GS chromosome/scaffold name	homologs
+556	cchok1gshd_homolog_chrom_start	Chinese hamster CHOK1GS chromosome/scaffold start (bp)	homologs
+557	cchok1gshd_homolog_chrom_end	Chinese hamster CHOK1GS chromosome/scaffold end (bp)	homologs
+558	cchok1gshd_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+559	cchok1gshd_homolog_subtype	Last common ancestor with Chinese hamster CHOK1GS	homologs
+560	cchok1gshd_homolog_orthology_type	Chinese hamster CHOK1GS homology type	homologs
+561	cchok1gshd_homolog_perc_id	%id. target Chinese hamster CHOK1GS gene identical to query gene	homologs
+562	cchok1gshd_homolog_perc_id_r1	%id. query gene identical to target Chinese hamster CHOK1GS gene	homologs
+563	cchok1gshd_homolog_goc_score	Chinese hamster CHOK1GS Gene-order conservation score	homologs
+564	cchok1gshd_homolog_wga_coverage	Chinese hamster CHOK1GS Whole-genome alignment coverage	homologs
+565	cchok1gshd_homolog_dn	dN with Chinese hamster CHOK1GS	homologs
+566	cchok1gshd_homolog_ds	dS with Chinese hamster CHOK1GS	homologs
+567	cchok1gshd_homolog_orthology_confidence	Chinese hamster CHOK1GS orthology confidence [0 low, 1 high]	homologs
+568	ccrigri_homolog_ensembl_gene	Chinese hamster CriGri gene stable ID	homologs
+569	ccrigri_homolog_associated_gene_name	Chinese hamster CriGri gene name	homologs
+570	ccrigri_homolog_ensembl_peptide	Chinese hamster CriGri protein or transcript stable ID	homologs
+571	ccrigri_homolog_chromosome	Chinese hamster CriGri chromosome/scaffold name	homologs
+572	ccrigri_homolog_chrom_start	Chinese hamster CriGri chromosome/scaffold start (bp)	homologs
+573	ccrigri_homolog_chrom_end	Chinese hamster CriGri chromosome/scaffold end (bp)	homologs
+574	ccrigri_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+575	ccrigri_homolog_subtype	Last common ancestor with Chinese hamster CriGri	homologs
+576	ccrigri_homolog_orthology_type	Chinese hamster CriGri homology type	homologs
+577	ccrigri_homolog_perc_id	%id. target Chinese hamster CriGri gene identical to query gene	homologs
+578	ccrigri_homolog_perc_id_r1	%id. query gene identical to target Chinese hamster CriGri gene	homologs
+579	ccrigri_homolog_goc_score	Chinese hamster CriGri Gene-order conservation score	homologs
+580	ccrigri_homolog_wga_coverage	Chinese hamster CriGri Whole-genome alignment coverage	homologs
+581	ccrigri_homolog_dn	dN with Chinese hamster CriGri	homologs
+582	ccrigri_homolog_ds	dS with Chinese hamster CriGri	homologs
+583	ccrigri_homolog_orthology_confidence	Chinese hamster CriGri orthology confidence [0 low, 1 high]	homologs
+584	psinensis_homolog_ensembl_gene	Chinese softshell turtle gene stable ID	homologs
+585	psinensis_homolog_associated_gene_name	Chinese softshell turtle gene name	homologs
+586	psinensis_homolog_ensembl_peptide	Chinese softshell turtle protein or transcript stable ID	homologs
+587	psinensis_homolog_chromosome	Chinese softshell turtle chromosome/scaffold name	homologs
+588	psinensis_homolog_chrom_start	Chinese softshell turtle chromosome/scaffold start (bp)	homologs
+589	psinensis_homolog_chrom_end	Chinese softshell turtle chromosome/scaffold end (bp)	homologs
+590	psinensis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+591	psinensis_homolog_subtype	Last common ancestor with Chinese softshell turtle	homologs
+592	psinensis_homolog_orthology_type	Chinese softshell turtle homology type	homologs
+593	psinensis_homolog_perc_id	%id. target Chinese softshell turtle gene identical to query gene	homologs
+594	psinensis_homolog_perc_id_r1	%id. query gene identical to target Chinese softshell turtle gene	homologs
+595	psinensis_homolog_goc_score	Chinese softshell turtle Gene-order conservation score	homologs
+596	psinensis_homolog_wga_coverage	Chinese softshell turtle Whole-genome alignment coverage	homologs
+597	psinensis_homolog_dn	dN with Chinese softshell turtle	homologs
+598	psinensis_homolog_ds	dS with Chinese softshell turtle	homologs
+599	psinensis_homolog_orthology_confidence	Chinese softshell turtle orthology confidence [0 low, 1 high]	homologs
+600	gmorhua_homolog_ensembl_gene	Cod gene stable ID	homologs
+601	gmorhua_homolog_associated_gene_name	Cod gene name	homologs
+602	gmorhua_homolog_ensembl_peptide	Cod protein or transcript stable ID	homologs
+603	gmorhua_homolog_chromosome	Cod chromosome/scaffold name	homologs
+604	gmorhua_homolog_chrom_start	Cod chromosome/scaffold start (bp)	homologs
+605	gmorhua_homolog_chrom_end	Cod chromosome/scaffold end (bp)	homologs
+606	gmorhua_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+607	gmorhua_homolog_subtype	Last common ancestor with Cod	homologs
+608	gmorhua_homolog_orthology_type	Cod homology type	homologs
+609	gmorhua_homolog_perc_id	%id. target Cod gene identical to query gene	homologs
+610	gmorhua_homolog_perc_id_r1	%id. query gene identical to target Cod gene	homologs
+611	gmorhua_homolog_goc_score	Cod Gene-order conservation score	homologs
+612	gmorhua_homolog_wga_coverage	Cod Whole-genome alignment coverage	homologs
+613	gmorhua_homolog_dn	dN with Cod	homologs
+614	gmorhua_homolog_ds	dS with Cod	homologs
+615	gmorhua_homolog_orthology_confidence	Cod orthology confidence [0 low, 1 high]	homologs
+616	lchalumnae_homolog_ensembl_gene	Coelacanth gene stable ID	homologs
+617	lchalumnae_homolog_associated_gene_name	Coelacanth gene name	homologs
+618	lchalumnae_homolog_ensembl_peptide	Coelacanth protein or transcript stable ID	homologs
+619	lchalumnae_homolog_chromosome	Coelacanth chromosome/scaffold name	homologs
+620	lchalumnae_homolog_chrom_start	Coelacanth chromosome/scaffold start (bp)	homologs
+621	lchalumnae_homolog_chrom_end	Coelacanth chromosome/scaffold end (bp)	homologs
+622	lchalumnae_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+623	lchalumnae_homolog_subtype	Last common ancestor with Coelacanth	homologs
+624	lchalumnae_homolog_orthology_type	Coelacanth homology type	homologs
+625	lchalumnae_homolog_perc_id	%id. target Coelacanth gene identical to query gene	homologs
+626	lchalumnae_homolog_perc_id_r1	%id. query gene identical to target Coelacanth gene	homologs
+627	lchalumnae_homolog_goc_score	Coelacanth Gene-order conservation score	homologs
+628	lchalumnae_homolog_wga_coverage	Coelacanth Whole-genome alignment coverage	homologs
+629	lchalumnae_homolog_dn	dN with Coelacanth	homologs
+630	lchalumnae_homolog_ds	dS with Coelacanth	homologs
+631	lchalumnae_homolog_orthology_confidence	Coelacanth orthology confidence [0 low, 1 high]	homologs
+632	pcoquereli_homolog_ensembl_gene	Coquerel's sifaka gene stable ID	homologs
+633	pcoquereli_homolog_associated_gene_name	Coquerel's sifaka gene name	homologs
+634	pcoquereli_homolog_ensembl_peptide	Coquerel's sifaka protein or transcript stable ID	homologs
+635	pcoquereli_homolog_chromosome	Coquerel's sifaka chromosome/scaffold name	homologs
+636	pcoquereli_homolog_chrom_start	Coquerel's sifaka chromosome/scaffold start (bp)	homologs
+637	pcoquereli_homolog_chrom_end	Coquerel's sifaka chromosome/scaffold end (bp)	homologs
+638	pcoquereli_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+639	pcoquereli_homolog_subtype	Last common ancestor with Coquerel's sifaka	homologs
+640	pcoquereli_homolog_orthology_type	Coquerel's sifaka homology type	homologs
+641	pcoquereli_homolog_perc_id	%id. target Coquerel's sifaka gene identical to query gene	homologs
+642	pcoquereli_homolog_perc_id_r1	%id. query gene identical to target Coquerel's sifaka gene	homologs
+643	pcoquereli_homolog_goc_score	Coquerel's sifaka Gene-order conservation score	homologs
+644	pcoquereli_homolog_wga_coverage	Coquerel's sifaka Whole-genome alignment coverage	homologs
+645	pcoquereli_homolog_dn	dN with Coquerel's sifaka	homologs
+646	pcoquereli_homolog_ds	dS with Coquerel's sifaka	homologs
+647	pcoquereli_homolog_orthology_confidence	Coquerel's sifaka orthology confidence [0 low, 1 high]	homologs
+648	btaurus_homolog_ensembl_gene	Cow gene stable ID	homologs
+649	btaurus_homolog_associated_gene_name	Cow gene name	homologs
+650	btaurus_homolog_ensembl_peptide	Cow protein or transcript stable ID	homologs
+651	btaurus_homolog_chromosome	Cow chromosome/scaffold name	homologs
+652	btaurus_homolog_chrom_start	Cow chromosome/scaffold start (bp)	homologs
+653	btaurus_homolog_chrom_end	Cow chromosome/scaffold end (bp)	homologs
+654	btaurus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+655	btaurus_homolog_subtype	Last common ancestor with Cow	homologs
+656	btaurus_homolog_orthology_type	Cow homology type	homologs
+657	btaurus_homolog_perc_id	%id. target Cow gene identical to query gene	homologs
+658	btaurus_homolog_perc_id_r1	%id. query gene identical to target Cow gene	homologs
+659	btaurus_homolog_goc_score	Cow Gene-order conservation score	homologs
+660	btaurus_homolog_wga_coverage	Cow Whole-genome alignment coverage	homologs
+661	btaurus_homolog_dn	dN with Cow	homologs
+662	btaurus_homolog_ds	dS with Cow	homologs
+663	btaurus_homolog_orthology_confidence	Cow orthology confidence [0 low, 1 high]	homologs
+664	mfascicularis_homolog_ensembl_gene	Crab-eating macaque gene stable ID	homologs
+665	mfascicularis_homolog_associated_gene_name	Crab-eating macaque gene name	homologs
+666	mfascicularis_homolog_ensembl_peptide	Crab-eating macaque protein or transcript stable ID	homologs
+667	mfascicularis_homolog_chromosome	Crab-eating macaque chromosome/scaffold name	homologs
+668	mfascicularis_homolog_chrom_start	Crab-eating macaque chromosome/scaffold start (bp)	homologs
+669	mfascicularis_homolog_chrom_end	Crab-eating macaque chromosome/scaffold end (bp)	homologs
+670	mfascicularis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+671	mfascicularis_homolog_subtype	Last common ancestor with Crab-eating macaque	homologs
+672	mfascicularis_homolog_orthology_type	Crab-eating macaque homology type	homologs
+673	mfascicularis_homolog_perc_id	%id. target Crab-eating macaque gene identical to query gene	homologs
+674	mfascicularis_homolog_perc_id_r1	%id. query gene identical to target Crab-eating macaque gene	homologs
+675	mfascicularis_homolog_goc_score	Crab-eating macaque Gene-order conservation score	homologs
+676	mfascicularis_homolog_wga_coverage	Crab-eating macaque Whole-genome alignment coverage	homologs
+677	mfascicularis_homolog_dn	dN with Crab-eating macaque	homologs
+678	mfascicularis_homolog_ds	dS with Crab-eating macaque	homologs
+679	mfascicularis_homolog_orthology_confidence	Crab-eating macaque orthology confidence [0 low, 1 high]	homologs
+680	fdamarensis_homolog_ensembl_gene	Damara mole rat gene stable ID	homologs
+681	fdamarensis_homolog_associated_gene_name	Damara mole rat gene name	homologs
+682	fdamarensis_homolog_ensembl_peptide	Damara mole rat protein or transcript stable ID	homologs
+683	fdamarensis_homolog_chromosome	Damara mole rat chromosome/scaffold name	homologs
+684	fdamarensis_homolog_chrom_start	Damara mole rat chromosome/scaffold start (bp)	homologs
+685	fdamarensis_homolog_chrom_end	Damara mole rat chromosome/scaffold end (bp)	homologs
+686	fdamarensis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+687	fdamarensis_homolog_subtype	Last common ancestor with Damara mole rat	homologs
+688	fdamarensis_homolog_orthology_type	Damara mole rat homology type	homologs
+689	fdamarensis_homolog_perc_id	%id. target Damara mole rat gene identical to query gene	homologs
+690	fdamarensis_homolog_perc_id_r1	%id. query gene identical to target Damara mole rat gene	homologs
+691	fdamarensis_homolog_goc_score	Damara mole rat Gene-order conservation score	homologs
+692	fdamarensis_homolog_wga_coverage	Damara mole rat Whole-genome alignment coverage	homologs
+693	fdamarensis_homolog_dn	dN with Damara mole rat	homologs
+694	fdamarensis_homolog_ds	dS with Damara mole rat	homologs
+695	fdamarensis_homolog_orthology_confidence	Damara mole rat orthology confidence [0 low, 1 high]	homologs
+696	odegus_homolog_ensembl_gene	Degu gene stable ID	homologs
+697	odegus_homolog_associated_gene_name	Degu gene name	homologs
+698	odegus_homolog_ensembl_peptide	Degu protein or transcript stable ID	homologs
+699	odegus_homolog_chromosome	Degu chromosome/scaffold name	homologs
+700	odegus_homolog_chrom_start	Degu chromosome/scaffold start (bp)	homologs
+701	odegus_homolog_chrom_end	Degu chromosome/scaffold end (bp)	homologs
+702	odegus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+703	odegus_homolog_subtype	Last common ancestor with Degu	homologs
+704	odegus_homolog_orthology_type	Degu homology type	homologs
+705	odegus_homolog_perc_id	%id. target Degu gene identical to query gene	homologs
+706	odegus_homolog_perc_id_r1	%id. query gene identical to target Degu gene	homologs
+707	odegus_homolog_goc_score	Degu Gene-order conservation score	homologs
+708	odegus_homolog_wga_coverage	Degu Whole-genome alignment coverage	homologs
+709	odegus_homolog_dn	dN with Degu	homologs
+710	odegus_homolog_ds	dS with Degu	homologs
+711	odegus_homolog_orthology_confidence	Degu orthology confidence [0 low, 1 high]	homologs
+712	cfamiliaris_homolog_ensembl_gene	Dog gene stable ID	homologs
+713	cfamiliaris_homolog_associated_gene_name	Dog gene name	homologs
+714	cfamiliaris_homolog_ensembl_peptide	Dog protein or transcript stable ID	homologs
+715	cfamiliaris_homolog_chromosome	Dog chromosome/scaffold name	homologs
+716	cfamiliaris_homolog_chrom_start	Dog chromosome/scaffold start (bp)	homologs
+717	cfamiliaris_homolog_chrom_end	Dog chromosome/scaffold end (bp)	homologs
+718	cfamiliaris_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+719	cfamiliaris_homolog_subtype	Last common ancestor with Dog	homologs
+720	cfamiliaris_homolog_orthology_type	Dog homology type	homologs
+721	cfamiliaris_homolog_perc_id	%id. target Dog gene identical to query gene	homologs
+722	cfamiliaris_homolog_perc_id_r1	%id. query gene identical to target Dog gene	homologs
+723	cfamiliaris_homolog_goc_score	Dog Gene-order conservation score	homologs
+724	cfamiliaris_homolog_wga_coverage	Dog Whole-genome alignment coverage	homologs
+725	cfamiliaris_homolog_dn	dN with Dog	homologs
+726	cfamiliaris_homolog_ds	dS with Dog	homologs
+727	cfamiliaris_homolog_orthology_confidence	Dog orthology confidence [0 low, 1 high]	homologs
+728	ttruncatus_homolog_ensembl_gene	Dolphin gene stable ID	homologs
+729	ttruncatus_homolog_associated_gene_name	Dolphin gene name	homologs
+730	ttruncatus_homolog_ensembl_peptide	Dolphin protein or transcript stable ID	homologs
+731	ttruncatus_homolog_chromosome	Dolphin chromosome/scaffold name	homologs
+732	ttruncatus_homolog_chrom_start	Dolphin chromosome/scaffold start (bp)	homologs
+733	ttruncatus_homolog_chrom_end	Dolphin chromosome/scaffold end (bp)	homologs
+734	ttruncatus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+735	ttruncatus_homolog_subtype	Last common ancestor with Dolphin	homologs
+736	ttruncatus_homolog_orthology_type	Dolphin homology type	homologs
+737	ttruncatus_homolog_perc_id	%id. target Dolphin gene identical to query gene	homologs
+738	ttruncatus_homolog_perc_id_r1	%id. query gene identical to target Dolphin gene	homologs
+739	ttruncatus_homolog_goc_score	Dolphin Gene-order conservation score	homologs
+740	ttruncatus_homolog_wga_coverage	Dolphin Whole-genome alignment coverage	homologs
+741	ttruncatus_homolog_dn	dN with Dolphin	homologs
+742	ttruncatus_homolog_ds	dS with Dolphin	homologs
+743	ttruncatus_homolog_orthology_confidence	Dolphin orthology confidence [0 low, 1 high]	homologs
+744	mleucophaeus_homolog_ensembl_gene	Drill gene stable ID	homologs
+745	mleucophaeus_homolog_associated_gene_name	Drill gene name	homologs
+746	mleucophaeus_homolog_ensembl_peptide	Drill protein or transcript stable ID	homologs
+747	mleucophaeus_homolog_chromosome	Drill chromosome/scaffold name	homologs
+748	mleucophaeus_homolog_chrom_start	Drill chromosome/scaffold start (bp)	homologs
+749	mleucophaeus_homolog_chrom_end	Drill chromosome/scaffold end (bp)	homologs
+750	mleucophaeus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+751	mleucophaeus_homolog_subtype	Last common ancestor with Drill	homologs
+752	mleucophaeus_homolog_orthology_type	Drill homology type	homologs
+753	mleucophaeus_homolog_perc_id	%id. target Drill gene identical to query gene	homologs
+754	mleucophaeus_homolog_perc_id_r1	%id. query gene identical to target Drill gene	homologs
+755	mleucophaeus_homolog_goc_score	Drill Gene-order conservation score	homologs
+756	mleucophaeus_homolog_wga_coverage	Drill Whole-genome alignment coverage	homologs
+757	mleucophaeus_homolog_dn	dN with Drill	homologs
+758	mleucophaeus_homolog_ds	dS with Drill	homologs
+759	mleucophaeus_homolog_orthology_confidence	Drill orthology confidence [0 low, 1 high]	homologs
+760	aplatyrhynchos_homolog_ensembl_gene	Duck gene stable ID	homologs
+761	aplatyrhynchos_homolog_associated_gene_name	Duck gene name	homologs
+762	aplatyrhynchos_homolog_ensembl_peptide	Duck protein or transcript stable ID	homologs
+763	aplatyrhynchos_homolog_chromosome	Duck chromosome/scaffold name	homologs
+764	aplatyrhynchos_homolog_chrom_start	Duck chromosome/scaffold start (bp)	homologs
+765	aplatyrhynchos_homolog_chrom_end	Duck chromosome/scaffold end (bp)	homologs
+766	aplatyrhynchos_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+767	aplatyrhynchos_homolog_subtype	Last common ancestor with Duck	homologs
+768	aplatyrhynchos_homolog_orthology_type	Duck homology type	homologs
+769	aplatyrhynchos_homolog_perc_id	%id. target Duck gene identical to query gene	homologs
+770	aplatyrhynchos_homolog_perc_id_r1	%id. query gene identical to target Duck gene	homologs
+771	aplatyrhynchos_homolog_goc_score	Duck Gene-order conservation score	homologs
+772	aplatyrhynchos_homolog_wga_coverage	Duck Whole-genome alignment coverage	homologs
+773	aplatyrhynchos_homolog_dn	dN with Duck	homologs
+774	aplatyrhynchos_homolog_ds	dS with Duck	homologs
+775	aplatyrhynchos_homolog_orthology_confidence	Duck orthology confidence [0 low, 1 high]	homologs
+776	lafricana_homolog_ensembl_gene	Elephant gene stable ID	homologs
+777	lafricana_homolog_associated_gene_name	Elephant gene name	homologs
+778	lafricana_homolog_ensembl_peptide	Elephant protein or transcript stable ID	homologs
+779	lafricana_homolog_chromosome	Elephant chromosome/scaffold name	homologs
+780	lafricana_homolog_chrom_start	Elephant chromosome/scaffold start (bp)	homologs
+781	lafricana_homolog_chrom_end	Elephant chromosome/scaffold end (bp)	homologs
+782	lafricana_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+783	lafricana_homolog_subtype	Last common ancestor with Elephant	homologs
+784	lafricana_homolog_orthology_type	Elephant homology type	homologs
+785	lafricana_homolog_perc_id	%id. target Elephant gene identical to query gene	homologs
+786	lafricana_homolog_perc_id_r1	%id. query gene identical to target Elephant gene	homologs
+787	lafricana_homolog_goc_score	Elephant Gene-order conservation score	homologs
+788	lafricana_homolog_wga_coverage	Elephant Whole-genome alignment coverage	homologs
+789	lafricana_homolog_dn	dN with Elephant	homologs
+790	lafricana_homolog_ds	dS with Elephant	homologs
+791	lafricana_homolog_orthology_confidence	Elephant orthology confidence [0 low, 1 high]	homologs
+792	mfuro_homolog_ensembl_gene	Ferret gene stable ID	homologs
+793	mfuro_homolog_associated_gene_name	Ferret gene name	homologs
+794	mfuro_homolog_ensembl_peptide	Ferret protein or transcript stable ID	homologs
+795	mfuro_homolog_chromosome	Ferret chromosome/scaffold name	homologs
+796	mfuro_homolog_chrom_start	Ferret chromosome/scaffold start (bp)	homologs
+797	mfuro_homolog_chrom_end	Ferret chromosome/scaffold end (bp)	homologs
+798	mfuro_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+799	mfuro_homolog_subtype	Last common ancestor with Ferret	homologs
+800	mfuro_homolog_orthology_type	Ferret homology type	homologs
+801	mfuro_homolog_perc_id	%id. target Ferret gene identical to query gene	homologs
+802	mfuro_homolog_perc_id_r1	%id. query gene identical to target Ferret gene	homologs
+803	mfuro_homolog_goc_score	Ferret Gene-order conservation score	homologs
+804	mfuro_homolog_wga_coverage	Ferret Whole-genome alignment coverage	homologs
+805	mfuro_homolog_dn	dN with Ferret	homologs
+806	mfuro_homolog_ds	dS with Ferret	homologs
+807	mfuro_homolog_orthology_confidence	Ferret orthology confidence [0 low, 1 high]	homologs
+808	falbicollis_homolog_ensembl_gene	Flycatcher gene stable ID	homologs
+809	falbicollis_homolog_associated_gene_name	Flycatcher gene name	homologs
+810	falbicollis_homolog_ensembl_peptide	Flycatcher protein or transcript stable ID	homologs
+811	falbicollis_homolog_chromosome	Flycatcher chromosome/scaffold name	homologs
+812	falbicollis_homolog_chrom_start	Flycatcher chromosome/scaffold start (bp)	homologs
+813	falbicollis_homolog_chrom_end	Flycatcher chromosome/scaffold end (bp)	homologs
+814	falbicollis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+815	falbicollis_homolog_subtype	Last common ancestor with Flycatcher	homologs
+816	falbicollis_homolog_orthology_type	Flycatcher homology type	homologs
+817	falbicollis_homolog_perc_id	%id. target Flycatcher gene identical to query gene	homologs
+818	falbicollis_homolog_perc_id_r1	%id. query gene identical to target Flycatcher gene	homologs
+819	falbicollis_homolog_goc_score	Flycatcher Gene-order conservation score	homologs
+820	falbicollis_homolog_wga_coverage	Flycatcher Whole-genome alignment coverage	homologs
+821	falbicollis_homolog_dn	dN with Flycatcher	homologs
+822	falbicollis_homolog_ds	dS with Flycatcher	homologs
+823	falbicollis_homolog_orthology_confidence	Flycatcher orthology confidence [0 low, 1 high]	homologs
+824	dmelanogaster_homolog_ensembl_gene	Fruitfly gene stable ID	homologs
+825	dmelanogaster_homolog_associated_gene_name	Fruitfly gene name	homologs
+826	dmelanogaster_homolog_ensembl_peptide	Fruitfly protein or transcript stable ID	homologs
+827	dmelanogaster_homolog_chromosome	Fruitfly chromosome/scaffold name	homologs
+828	dmelanogaster_homolog_chrom_start	Fruitfly chromosome/scaffold start (bp)	homologs
+829	dmelanogaster_homolog_chrom_end	Fruitfly chromosome/scaffold end (bp)	homologs
+830	dmelanogaster_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+831	dmelanogaster_homolog_subtype	Last common ancestor with Fruitfly	homologs
+832	dmelanogaster_homolog_orthology_type	Fruitfly homology type	homologs
+833	dmelanogaster_homolog_perc_id	%id. target Fruitfly gene identical to query gene	homologs
+834	dmelanogaster_homolog_perc_id_r1	%id. query gene identical to target Fruitfly gene	homologs
+835	dmelanogaster_homolog_goc_score	Fruitfly Gene-order conservation score	homologs
+836	dmelanogaster_homolog_wga_coverage	Fruitfly Whole-genome alignment coverage	homologs
+837	dmelanogaster_homolog_dn	dN with Fruitfly	homologs
+838	dmelanogaster_homolog_ds	dS with Fruitfly	homologs
+839	dmelanogaster_homolog_orthology_confidence	Fruitfly orthology confidence [0 low, 1 high]	homologs
+840	trubripes_homolog_ensembl_gene	Fugu gene stable ID	homologs
+841	trubripes_homolog_associated_gene_name	Fugu gene name	homologs
+842	trubripes_homolog_ensembl_peptide	Fugu protein or transcript stable ID	homologs
+843	trubripes_homolog_chromosome	Fugu chromosome/scaffold name	homologs
+844	trubripes_homolog_chrom_start	Fugu chromosome/scaffold start (bp)	homologs
+845	trubripes_homolog_chrom_end	Fugu chromosome/scaffold end (bp)	homologs
+846	trubripes_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+847	trubripes_homolog_subtype	Last common ancestor with Fugu	homologs
+848	trubripes_homolog_orthology_type	Fugu homology type	homologs
+849	trubripes_homolog_perc_id	%id. target Fugu gene identical to query gene	homologs
+850	trubripes_homolog_perc_id_r1	%id. query gene identical to target Fugu gene	homologs
+851	trubripes_homolog_goc_score	Fugu Gene-order conservation score	homologs
+852	trubripes_homolog_wga_coverage	Fugu Whole-genome alignment coverage	homologs
+853	trubripes_homolog_dn	dN with Fugu	homologs
+854	trubripes_homolog_ds	dS with Fugu	homologs
+855	trubripes_homolog_orthology_confidence	Fugu orthology confidence [0 low, 1 high]	homologs
+856	nleucogenys_homolog_ensembl_gene	Gibbon gene stable ID	homologs
+857	nleucogenys_homolog_associated_gene_name	Gibbon gene name	homologs
+858	nleucogenys_homolog_ensembl_peptide	Gibbon protein or transcript stable ID	homologs
+859	nleucogenys_homolog_chromosome	Gibbon chromosome/scaffold name	homologs
+860	nleucogenys_homolog_chrom_start	Gibbon chromosome/scaffold start (bp)	homologs
+861	nleucogenys_homolog_chrom_end	Gibbon chromosome/scaffold end (bp)	homologs
+862	nleucogenys_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+863	nleucogenys_homolog_subtype	Last common ancestor with Gibbon	homologs
+864	nleucogenys_homolog_orthology_type	Gibbon homology type	homologs
+865	nleucogenys_homolog_perc_id	%id. target Gibbon gene identical to query gene	homologs
+866	nleucogenys_homolog_perc_id_r1	%id. query gene identical to target Gibbon gene	homologs
+867	nleucogenys_homolog_goc_score	Gibbon Gene-order conservation score	homologs
+868	nleucogenys_homolog_wga_coverage	Gibbon Whole-genome alignment coverage	homologs
+869	nleucogenys_homolog_dn	dN with Gibbon	homologs
+870	nleucogenys_homolog_ds	dS with Gibbon	homologs
+871	nleucogenys_homolog_orthology_confidence	Gibbon orthology confidence [0 low, 1 high]	homologs
+872	chircus_homolog_ensembl_gene	Goat gene stable ID	homologs
+873	chircus_homolog_associated_gene_name	Goat gene name	homologs
+874	chircus_homolog_ensembl_peptide	Goat protein or transcript stable ID	homologs
+875	chircus_homolog_chromosome	Goat chromosome/scaffold name	homologs
+876	chircus_homolog_chrom_start	Goat chromosome/scaffold start (bp)	homologs
+877	chircus_homolog_chrom_end	Goat chromosome/scaffold end (bp)	homologs
+878	chircus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+879	chircus_homolog_subtype	Last common ancestor with Goat	homologs
+880	chircus_homolog_orthology_type	Goat homology type	homologs
+881	chircus_homolog_perc_id	%id. target Goat gene identical to query gene	homologs
+882	chircus_homolog_perc_id_r1	%id. query gene identical to target Goat gene	homologs
+883	chircus_homolog_goc_score	Goat Gene-order conservation score	homologs
+884	chircus_homolog_wga_coverage	Goat Whole-genome alignment coverage	homologs
+885	chircus_homolog_dn	dN with Goat	homologs
+886	chircus_homolog_ds	dS with Goat	homologs
+887	chircus_homolog_orthology_confidence	Goat orthology confidence [0 low, 1 high]	homologs
+888	mauratus_homolog_ensembl_gene	Golden Hamster gene stable ID	homologs
+889	mauratus_homolog_associated_gene_name	Golden Hamster gene name	homologs
+890	mauratus_homolog_ensembl_peptide	Golden Hamster protein or transcript stable ID	homologs
+891	mauratus_homolog_chromosome	Golden Hamster chromosome/scaffold name	homologs
+892	mauratus_homolog_chrom_start	Golden Hamster chromosome/scaffold start (bp)	homologs
+893	mauratus_homolog_chrom_end	Golden Hamster chromosome/scaffold end (bp)	homologs
+894	mauratus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+895	mauratus_homolog_subtype	Last common ancestor with Golden Hamster	homologs
+896	mauratus_homolog_orthology_type	Golden Hamster homology type	homologs
+897	mauratus_homolog_perc_id	%id. target Golden Hamster gene identical to query gene	homologs
+898	mauratus_homolog_perc_id_r1	%id. query gene identical to target Golden Hamster gene	homologs
+899	mauratus_homolog_goc_score	Golden Hamster Gene-order conservation score	homologs
+900	mauratus_homolog_wga_coverage	Golden Hamster Whole-genome alignment coverage	homologs
+901	mauratus_homolog_dn	dN with Golden Hamster	homologs
+902	mauratus_homolog_ds	dS with Golden Hamster	homologs
+903	mauratus_homolog_orthology_confidence	Golden Hamster orthology confidence [0 low, 1 high]	homologs
+904	rroxellana_homolog_ensembl_gene	Golden snub-nosed monkey gene stable ID	homologs
+905	rroxellana_homolog_associated_gene_name	Golden snub-nosed monkey gene name	homologs
+906	rroxellana_homolog_ensembl_peptide	Golden snub-nosed monkey protein or transcript stable ID	homologs
+907	rroxellana_homolog_chromosome	Golden snub-nosed monkey chromosome/scaffold name	homologs
+908	rroxellana_homolog_chrom_start	Golden snub-nosed monkey chromosome/scaffold start (bp)	homologs
+909	rroxellana_homolog_chrom_end	Golden snub-nosed monkey chromosome/scaffold end (bp)	homologs
+910	rroxellana_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+911	rroxellana_homolog_subtype	Last common ancestor with Golden snub-nosed monkey	homologs
+912	rroxellana_homolog_orthology_type	Golden snub-nosed monkey homology type	homologs
+913	rroxellana_homolog_perc_id	%id. target Golden snub-nosed monkey gene identical to query gene	homologs
+914	rroxellana_homolog_perc_id_r1	%id. query gene identical to target Golden snub-nosed monkey gene	homologs
+915	rroxellana_homolog_goc_score	Golden snub-nosed monkey Gene-order conservation score	homologs
+916	rroxellana_homolog_wga_coverage	Golden snub-nosed monkey Whole-genome alignment coverage	homologs
+917	rroxellana_homolog_dn	dN with Golden snub-nosed monkey	homologs
+918	rroxellana_homolog_ds	dS with Golden snub-nosed monkey	homologs
+919	rroxellana_homolog_orthology_confidence	Golden snub-nosed monkey orthology confidence [0 low, 1 high]	homologs
+920	ggorilla_homolog_ensembl_gene	Gorilla gene stable ID	homologs
+921	ggorilla_homolog_associated_gene_name	Gorilla gene name	homologs
+922	ggorilla_homolog_ensembl_peptide	Gorilla protein or transcript stable ID	homologs
+923	ggorilla_homolog_chromosome	Gorilla chromosome/scaffold name	homologs
+924	ggorilla_homolog_chrom_start	Gorilla chromosome/scaffold start (bp)	homologs
+925	ggorilla_homolog_chrom_end	Gorilla chromosome/scaffold end (bp)	homologs
+926	ggorilla_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+927	ggorilla_homolog_subtype	Last common ancestor with Gorilla	homologs
+928	ggorilla_homolog_orthology_type	Gorilla homology type	homologs
+929	ggorilla_homolog_perc_id	%id. target Gorilla gene identical to query gene	homologs
+930	ggorilla_homolog_perc_id_r1	%id. query gene identical to target Gorilla gene	homologs
+931	ggorilla_homolog_goc_score	Gorilla Gene-order conservation score	homologs
+932	ggorilla_homolog_wga_coverage	Gorilla Whole-genome alignment coverage	homologs
+933	ggorilla_homolog_dn	dN with Gorilla	homologs
+934	ggorilla_homolog_ds	dS with Gorilla	homologs
+935	ggorilla_homolog_orthology_confidence	Gorilla orthology confidence [0 low, 1 high]	homologs
+936	cporcellus_homolog_ensembl_gene	Guinea Pig gene stable ID	homologs
+937	cporcellus_homolog_associated_gene_name	Guinea Pig gene name	homologs
+938	cporcellus_homolog_ensembl_peptide	Guinea Pig protein or transcript stable ID	homologs
+939	cporcellus_homolog_chromosome	Guinea Pig chromosome/scaffold name	homologs
+940	cporcellus_homolog_chrom_start	Guinea Pig chromosome/scaffold start (bp)	homologs
+941	cporcellus_homolog_chrom_end	Guinea Pig chromosome/scaffold end (bp)	homologs
+942	cporcellus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+943	cporcellus_homolog_subtype	Last common ancestor with Guinea Pig	homologs
+944	cporcellus_homolog_orthology_type	Guinea Pig homology type	homologs
+945	cporcellus_homolog_perc_id	%id. target Guinea Pig gene identical to query gene	homologs
+946	cporcellus_homolog_perc_id_r1	%id. query gene identical to target Guinea Pig gene	homologs
+947	cporcellus_homolog_goc_score	Guinea Pig Gene-order conservation score	homologs
+948	cporcellus_homolog_wga_coverage	Guinea Pig Whole-genome alignment coverage	homologs
+949	cporcellus_homolog_dn	dN with Guinea Pig	homologs
+950	cporcellus_homolog_ds	dS with Guinea Pig	homologs
+951	cporcellus_homolog_orthology_confidence	Guinea Pig orthology confidence [0 low, 1 high]	homologs
+952	eeuropaeus_homolog_ensembl_gene	Hedgehog gene stable ID	homologs
+953	eeuropaeus_homolog_associated_gene_name	Hedgehog gene name	homologs
+954	eeuropaeus_homolog_ensembl_peptide	Hedgehog protein or transcript stable ID	homologs
+955	eeuropaeus_homolog_chromosome	Hedgehog chromosome/scaffold name	homologs
+956	eeuropaeus_homolog_chrom_start	Hedgehog chromosome/scaffold start (bp)	homologs
+957	eeuropaeus_homolog_chrom_end	Hedgehog chromosome/scaffold end (bp)	homologs
+958	eeuropaeus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+959	eeuropaeus_homolog_subtype	Last common ancestor with Hedgehog	homologs
+960	eeuropaeus_homolog_orthology_type	Hedgehog homology type	homologs
+961	eeuropaeus_homolog_perc_id	%id. target Hedgehog gene identical to query gene	homologs
+962	eeuropaeus_homolog_perc_id_r1	%id. query gene identical to target Hedgehog gene	homologs
+963	eeuropaeus_homolog_goc_score	Hedgehog Gene-order conservation score	homologs
+964	eeuropaeus_homolog_wga_coverage	Hedgehog Whole-genome alignment coverage	homologs
+965	eeuropaeus_homolog_dn	dN with Hedgehog	homologs
+966	eeuropaeus_homolog_ds	dS with Hedgehog	homologs
+967	eeuropaeus_homolog_orthology_confidence	Hedgehog orthology confidence [0 low, 1 high]	homologs
+968	ecaballus_homolog_ensembl_gene	Horse gene stable ID	homologs
+969	ecaballus_homolog_associated_gene_name	Horse gene name	homologs
+970	ecaballus_homolog_ensembl_peptide	Horse protein or transcript stable ID	homologs
+971	ecaballus_homolog_chromosome	Horse chromosome/scaffold name	homologs
+972	ecaballus_homolog_chrom_start	Horse chromosome/scaffold start (bp)	homologs
+973	ecaballus_homolog_chrom_end	Horse chromosome/scaffold end (bp)	homologs
+974	ecaballus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+975	ecaballus_homolog_subtype	Last common ancestor with Horse	homologs
+976	ecaballus_homolog_orthology_type	Horse homology type	homologs
+977	ecaballus_homolog_perc_id	%id. target Horse gene identical to query gene	homologs
+978	ecaballus_homolog_perc_id_r1	%id. query gene identical to target Horse gene	homologs
+979	ecaballus_homolog_goc_score	Horse Gene-order conservation score	homologs
+980	ecaballus_homolog_wga_coverage	Horse Whole-genome alignment coverage	homologs
+981	ecaballus_homolog_dn	dN with Horse	homologs
+982	ecaballus_homolog_ds	dS with Horse	homologs
+983	ecaballus_homolog_orthology_confidence	Horse orthology confidence [0 low, 1 high]	homologs
+984	pcapensis_homolog_ensembl_gene	Hyrax gene stable ID	homologs
+985	pcapensis_homolog_associated_gene_name	Hyrax gene name	homologs
+986	pcapensis_homolog_ensembl_peptide	Hyrax protein or transcript stable ID	homologs
+987	pcapensis_homolog_chromosome	Hyrax chromosome/scaffold name	homologs
+988	pcapensis_homolog_chrom_start	Hyrax chromosome/scaffold start (bp)	homologs
+989	pcapensis_homolog_chrom_end	Hyrax chromosome/scaffold end (bp)	homologs
+990	pcapensis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+991	pcapensis_homolog_subtype	Last common ancestor with Hyrax	homologs
+992	pcapensis_homolog_orthology_type	Hyrax homology type	homologs
+993	pcapensis_homolog_perc_id	%id. target Hyrax gene identical to query gene	homologs
+994	pcapensis_homolog_perc_id_r1	%id. query gene identical to target Hyrax gene	homologs
+995	pcapensis_homolog_goc_score	Hyrax Gene-order conservation score	homologs
+996	pcapensis_homolog_wga_coverage	Hyrax Whole-genome alignment coverage	homologs
+997	pcapensis_homolog_dn	dN with Hyrax	homologs
+998	pcapensis_homolog_ds	dS with Hyrax	homologs
+999	pcapensis_homolog_orthology_confidence	Hyrax orthology confidence [0 low, 1 high]	homologs
+1000	dordii_homolog_ensembl_gene	Kangaroo rat gene stable ID	homologs
+1001	dordii_homolog_associated_gene_name	Kangaroo rat gene name	homologs
+1002	dordii_homolog_ensembl_peptide	Kangaroo rat protein or transcript stable ID	homologs
+1003	dordii_homolog_chromosome	Kangaroo rat chromosome/scaffold name	homologs
+1004	dordii_homolog_chrom_start	Kangaroo rat chromosome/scaffold start (bp)	homologs
+1005	dordii_homolog_chrom_end	Kangaroo rat chromosome/scaffold end (bp)	homologs
+1006	dordii_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1007	dordii_homolog_subtype	Last common ancestor with Kangaroo rat	homologs
+1008	dordii_homolog_orthology_type	Kangaroo rat homology type	homologs
+1009	dordii_homolog_perc_id	%id. target Kangaroo rat gene identical to query gene	homologs
+1010	dordii_homolog_perc_id_r1	%id. query gene identical to target Kangaroo rat gene	homologs
+1011	dordii_homolog_goc_score	Kangaroo rat Gene-order conservation score	homologs
+1012	dordii_homolog_wga_coverage	Kangaroo rat Whole-genome alignment coverage	homologs
+1013	dordii_homolog_dn	dN with Kangaroo rat	homologs
+1014	dordii_homolog_ds	dS with Kangaroo rat	homologs
+1015	dordii_homolog_orthology_confidence	Kangaroo rat orthology confidence [0 low, 1 high]	homologs
+1016	pmarinus_homolog_ensembl_gene	Lamprey gene stable ID	homologs
+1017	pmarinus_homolog_associated_gene_name	Lamprey gene name	homologs
+1018	pmarinus_homolog_ensembl_peptide	Lamprey protein or transcript stable ID	homologs
+1019	pmarinus_homolog_chromosome	Lamprey chromosome/scaffold name	homologs
+1020	pmarinus_homolog_chrom_start	Lamprey chromosome/scaffold start (bp)	homologs
+1021	pmarinus_homolog_chrom_end	Lamprey chromosome/scaffold end (bp)	homologs
+1022	pmarinus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1023	pmarinus_homolog_subtype	Last common ancestor with Lamprey	homologs
+1024	pmarinus_homolog_orthology_type	Lamprey homology type	homologs
+1025	pmarinus_homolog_perc_id	%id. target Lamprey gene identical to query gene	homologs
+1026	pmarinus_homolog_perc_id_r1	%id. query gene identical to target Lamprey gene	homologs
+1027	pmarinus_homolog_goc_score	Lamprey Gene-order conservation score	homologs
+1028	pmarinus_homolog_wga_coverage	Lamprey Whole-genome alignment coverage	homologs
+1029	pmarinus_homolog_dn	dN with Lamprey	homologs
+1030	pmarinus_homolog_ds	dS with Lamprey	homologs
+1031	pmarinus_homolog_orthology_confidence	Lamprey orthology confidence [0 low, 1 high]	homologs
+1032	jjaculus_homolog_ensembl_gene	Lesser Egyptian jerboa gene stable ID	homologs
+1033	jjaculus_homolog_associated_gene_name	Lesser Egyptian jerboa gene name	homologs
+1034	jjaculus_homolog_ensembl_peptide	Lesser Egyptian jerboa protein or transcript stable ID	homologs
+1035	jjaculus_homolog_chromosome	Lesser Egyptian jerboa chromosome/scaffold name	homologs
+1036	jjaculus_homolog_chrom_start	Lesser Egyptian jerboa chromosome/scaffold start (bp)	homologs
+1037	jjaculus_homolog_chrom_end	Lesser Egyptian jerboa chromosome/scaffold end (bp)	homologs
+1038	jjaculus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1039	jjaculus_homolog_subtype	Last common ancestor with Lesser Egyptian jerboa	homologs
+1040	jjaculus_homolog_orthology_type	Lesser Egyptian jerboa homology type	homologs
+1041	jjaculus_homolog_perc_id	%id. target Lesser Egyptian jerboa gene identical to query gene	homologs
+1042	jjaculus_homolog_perc_id_r1	%id. query gene identical to target Lesser Egyptian jerboa gene	homologs
+1043	jjaculus_homolog_goc_score	Lesser Egyptian jerboa Gene-order conservation score	homologs
+1044	jjaculus_homolog_wga_coverage	Lesser Egyptian jerboa Whole-genome alignment coverage	homologs
+1045	jjaculus_homolog_dn	dN with Lesser Egyptian jerboa	homologs
+1046	jjaculus_homolog_ds	dS with Lesser Egyptian jerboa	homologs
+1047	jjaculus_homolog_orthology_confidence	Lesser Egyptian jerboa orthology confidence [0 low, 1 high]	homologs
+1048	etelfairi_homolog_ensembl_gene	Lesser hedgehog tenrec gene stable ID	homologs
+1049	etelfairi_homolog_associated_gene_name	Lesser hedgehog tenrec gene name	homologs
+1050	etelfairi_homolog_ensembl_peptide	Lesser hedgehog tenrec protein or transcript stable ID	homologs
+1051	etelfairi_homolog_chromosome	Lesser hedgehog tenrec chromosome/scaffold name	homologs
+1052	etelfairi_homolog_chrom_start	Lesser hedgehog tenrec chromosome/scaffold start (bp)	homologs
+1053	etelfairi_homolog_chrom_end	Lesser hedgehog tenrec chromosome/scaffold end (bp)	homologs
+1054	etelfairi_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1055	etelfairi_homolog_subtype	Last common ancestor with Lesser hedgehog tenrec	homologs
+1056	etelfairi_homolog_orthology_type	Lesser hedgehog tenrec homology type	homologs
+1057	etelfairi_homolog_perc_id	%id. target Lesser hedgehog tenrec gene identical to query gene	homologs
+1058	etelfairi_homolog_perc_id_r1	%id. query gene identical to target Lesser hedgehog tenrec gene	homologs
+1059	etelfairi_homolog_goc_score	Lesser hedgehog tenrec Gene-order conservation score	homologs
+1060	etelfairi_homolog_wga_coverage	Lesser hedgehog tenrec Whole-genome alignment coverage	homologs
+1061	etelfairi_homolog_dn	dN with Lesser hedgehog tenrec	homologs
+1062	etelfairi_homolog_ds	dS with Lesser hedgehog tenrec	homologs
+1063	etelfairi_homolog_orthology_confidence	Lesser hedgehog tenrec orthology confidence [0 low, 1 high]	homologs
+1064	clanigera_homolog_ensembl_gene	Long-tailed chinchilla gene stable ID	homologs
+1065	clanigera_homolog_associated_gene_name	Long-tailed chinchilla gene name	homologs
+1066	clanigera_homolog_ensembl_peptide	Long-tailed chinchilla protein or transcript stable ID	homologs
+1067	clanigera_homolog_chromosome	Long-tailed chinchilla chromosome/scaffold name	homologs
+1068	clanigera_homolog_chrom_start	Long-tailed chinchilla chromosome/scaffold start (bp)	homologs
+1069	clanigera_homolog_chrom_end	Long-tailed chinchilla chromosome/scaffold end (bp)	homologs
+1070	clanigera_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1071	clanigera_homolog_subtype	Last common ancestor with Long-tailed chinchilla	homologs
+1072	clanigera_homolog_orthology_type	Long-tailed chinchilla homology type	homologs
+1073	clanigera_homolog_perc_id	%id. target Long-tailed chinchilla gene identical to query gene	homologs
+1074	clanigera_homolog_perc_id_r1	%id. query gene identical to target Long-tailed chinchilla gene	homologs
+1075	clanigera_homolog_goc_score	Long-tailed chinchilla Gene-order conservation score	homologs
+1076	clanigera_homolog_wga_coverage	Long-tailed chinchilla Whole-genome alignment coverage	homologs
+1077	clanigera_homolog_dn	dN with Long-tailed chinchilla	homologs
+1078	clanigera_homolog_ds	dS with Long-tailed chinchilla	homologs
+1079	clanigera_homolog_orthology_confidence	Long-tailed chinchilla orthology confidence [0 low, 1 high]	homologs
+1080	anancymaae_homolog_ensembl_gene	Ma's night monkey gene stable ID	homologs
+1081	anancymaae_homolog_associated_gene_name	Ma's night monkey gene name	homologs
+1082	anancymaae_homolog_ensembl_peptide	Ma's night monkey protein or transcript stable ID	homologs
+1083	anancymaae_homolog_chromosome	Ma's night monkey chromosome/scaffold name	homologs
+1084	anancymaae_homolog_chrom_start	Ma's night monkey chromosome/scaffold start (bp)	homologs
+1085	anancymaae_homolog_chrom_end	Ma's night monkey chromosome/scaffold end (bp)	homologs
+1086	anancymaae_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1087	anancymaae_homolog_subtype	Last common ancestor with Ma's night monkey	homologs
+1088	anancymaae_homolog_orthology_type	Ma's night monkey homology type	homologs
+1089	anancymaae_homolog_perc_id	%id. target Ma's night monkey gene identical to query gene	homologs
+1090	anancymaae_homolog_perc_id_r1	%id. query gene identical to target Ma's night monkey gene	homologs
+1091	anancymaae_homolog_goc_score	Ma's night monkey Gene-order conservation score	homologs
+1092	anancymaae_homolog_wga_coverage	Ma's night monkey Whole-genome alignment coverage	homologs
+1093	anancymaae_homolog_dn	dN with Ma's night monkey	homologs
+1094	anancymaae_homolog_ds	dS with Ma's night monkey	homologs
+1095	anancymaae_homolog_orthology_confidence	Ma's night monkey orthology confidence [0 low, 1 high]	homologs
+1096	mmulatta_homolog_ensembl_gene	Macaque gene stable ID	homologs
+1097	mmulatta_homolog_associated_gene_name	Macaque gene name	homologs
+1098	mmulatta_homolog_ensembl_peptide	Macaque protein or transcript stable ID	homologs
+1099	mmulatta_homolog_chromosome	Macaque chromosome/scaffold name	homologs
+1100	mmulatta_homolog_chrom_start	Macaque chromosome/scaffold start (bp)	homologs
+1101	mmulatta_homolog_chrom_end	Macaque chromosome/scaffold end (bp)	homologs
+1102	mmulatta_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1103	mmulatta_homolog_subtype	Last common ancestor with Macaque	homologs
+1104	mmulatta_homolog_orthology_type	Macaque homology type	homologs
+1105	mmulatta_homolog_perc_id	%id. target Macaque gene identical to query gene	homologs
+1106	mmulatta_homolog_perc_id_r1	%id. query gene identical to target Macaque gene	homologs
+1107	mmulatta_homolog_goc_score	Macaque Gene-order conservation score	homologs
+1108	mmulatta_homolog_wga_coverage	Macaque Whole-genome alignment coverage	homologs
+1109	mmulatta_homolog_dn	dN with Macaque	homologs
+1110	mmulatta_homolog_ds	dS with Macaque	homologs
+1111	mmulatta_homolog_orthology_confidence	Macaque orthology confidence [0 low, 1 high]	homologs
+1112	cjacchus_homolog_ensembl_gene	Marmoset gene stable ID	homologs
+1113	cjacchus_homolog_associated_gene_name	Marmoset gene name	homologs
+1114	cjacchus_homolog_ensembl_peptide	Marmoset protein or transcript stable ID	homologs
+1115	cjacchus_homolog_chromosome	Marmoset chromosome/scaffold name	homologs
+1116	cjacchus_homolog_chrom_start	Marmoset chromosome/scaffold start (bp)	homologs
+1117	cjacchus_homolog_chrom_end	Marmoset chromosome/scaffold end (bp)	homologs
+1118	cjacchus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1119	cjacchus_homolog_subtype	Last common ancestor with Marmoset	homologs
+1120	cjacchus_homolog_orthology_type	Marmoset homology type	homologs
+1121	cjacchus_homolog_perc_id	%id. target Marmoset gene identical to query gene	homologs
+1122	cjacchus_homolog_perc_id_r1	%id. query gene identical to target Marmoset gene	homologs
+1123	cjacchus_homolog_goc_score	Marmoset Gene-order conservation score	homologs
+1124	cjacchus_homolog_wga_coverage	Marmoset Whole-genome alignment coverage	homologs
+1125	cjacchus_homolog_dn	dN with Marmoset	homologs
+1126	cjacchus_homolog_ds	dS with Marmoset	homologs
+1127	cjacchus_homolog_orthology_confidence	Marmoset orthology confidence [0 low, 1 high]	homologs
+1128	olatipes_homolog_ensembl_gene	Medaka gene stable ID	homologs
+1129	olatipes_homolog_associated_gene_name	Medaka gene name	homologs
+1130	olatipes_homolog_ensembl_peptide	Medaka protein or transcript stable ID	homologs
+1131	olatipes_homolog_chromosome	Medaka chromosome/scaffold name	homologs
+1132	olatipes_homolog_chrom_start	Medaka chromosome/scaffold start (bp)	homologs
+1133	olatipes_homolog_chrom_end	Medaka chromosome/scaffold end (bp)	homologs
+1134	olatipes_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1135	olatipes_homolog_subtype	Last common ancestor with Medaka	homologs
+1136	olatipes_homolog_orthology_type	Medaka homology type	homologs
+1137	olatipes_homolog_perc_id	%id. target Medaka gene identical to query gene	homologs
+1138	olatipes_homolog_perc_id_r1	%id. query gene identical to target Medaka gene	homologs
+1139	olatipes_homolog_goc_score	Medaka Gene-order conservation score	homologs
+1140	olatipes_homolog_wga_coverage	Medaka Whole-genome alignment coverage	homologs
+1141	olatipes_homolog_dn	dN with Medaka	homologs
+1142	olatipes_homolog_ds	dS with Medaka	homologs
+1143	olatipes_homolog_orthology_confidence	Medaka orthology confidence [0 low, 1 high]	homologs
+1144	pvampyrus_homolog_ensembl_gene	Megabat gene stable ID	homologs
+1145	pvampyrus_homolog_associated_gene_name	Megabat gene name	homologs
+1146	pvampyrus_homolog_ensembl_peptide	Megabat protein or transcript stable ID	homologs
+1147	pvampyrus_homolog_chromosome	Megabat chromosome/scaffold name	homologs
+1148	pvampyrus_homolog_chrom_start	Megabat chromosome/scaffold start (bp)	homologs
+1149	pvampyrus_homolog_chrom_end	Megabat chromosome/scaffold end (bp)	homologs
+1150	pvampyrus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1151	pvampyrus_homolog_subtype	Last common ancestor with Megabat	homologs
+1152	pvampyrus_homolog_orthology_type	Megabat homology type	homologs
+1153	pvampyrus_homolog_perc_id	%id. target Megabat gene identical to query gene	homologs
+1154	pvampyrus_homolog_perc_id_r1	%id. query gene identical to target Megabat gene	homologs
+1155	pvampyrus_homolog_goc_score	Megabat Gene-order conservation score	homologs
+1156	pvampyrus_homolog_wga_coverage	Megabat Whole-genome alignment coverage	homologs
+1157	pvampyrus_homolog_dn	dN with Megabat	homologs
+1158	pvampyrus_homolog_ds	dS with Megabat	homologs
+1159	pvampyrus_homolog_orthology_confidence	Megabat orthology confidence [0 low, 1 high]	homologs
+1160	mlucifugus_homolog_ensembl_gene	Microbat gene stable ID	homologs
+1161	mlucifugus_homolog_associated_gene_name	Microbat gene name	homologs
+1162	mlucifugus_homolog_ensembl_peptide	Microbat protein or transcript stable ID	homologs
+1163	mlucifugus_homolog_chromosome	Microbat chromosome/scaffold name	homologs
+1164	mlucifugus_homolog_chrom_start	Microbat chromosome/scaffold start (bp)	homologs
+1165	mlucifugus_homolog_chrom_end	Microbat chromosome/scaffold end (bp)	homologs
+1166	mlucifugus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1167	mlucifugus_homolog_subtype	Last common ancestor with Microbat	homologs
+1168	mlucifugus_homolog_orthology_type	Microbat homology type	homologs
+1169	mlucifugus_homolog_perc_id	%id. target Microbat gene identical to query gene	homologs
+1170	mlucifugus_homolog_perc_id_r1	%id. query gene identical to target Microbat gene	homologs
+1171	mlucifugus_homolog_goc_score	Microbat Gene-order conservation score	homologs
+1172	mlucifugus_homolog_wga_coverage	Microbat Whole-genome alignment coverage	homologs
+1173	mlucifugus_homolog_dn	dN with Microbat	homologs
+1174	mlucifugus_homolog_ds	dS with Microbat	homologs
+1175	mlucifugus_homolog_orthology_confidence	Microbat orthology confidence [0 low, 1 high]	homologs
+1176	mmusculus_homolog_ensembl_gene	Mouse gene stable ID	homologs
+1177	mmusculus_homolog_associated_gene_name	Mouse gene name	homologs
+1178	mmusculus_homolog_ensembl_peptide	Mouse protein or transcript stable ID	homologs
+1179	mmusculus_homolog_chromosome	Mouse chromosome/scaffold name	homologs
+1180	mmusculus_homolog_chrom_start	Mouse chromosome/scaffold start (bp)	homologs
+1181	mmusculus_homolog_chrom_end	Mouse chromosome/scaffold end (bp)	homologs
+1182	mmusculus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1183	mmusculus_homolog_subtype	Last common ancestor with Mouse	homologs
+1184	mmusculus_homolog_orthology_type	Mouse homology type	homologs
+1185	mmusculus_homolog_perc_id	%id. target Mouse gene identical to query gene	homologs
+1186	mmusculus_homolog_perc_id_r1	%id. query gene identical to target Mouse gene	homologs
+1187	mmusculus_homolog_goc_score	Mouse Gene-order conservation score	homologs
+1188	mmusculus_homolog_wga_coverage	Mouse Whole-genome alignment coverage	homologs
+1189	mmusculus_homolog_dn	dN with Mouse	homologs
+1190	mmusculus_homolog_ds	dS with Mouse	homologs
+1191	mmusculus_homolog_orthology_confidence	Mouse orthology confidence [0 low, 1 high]	homologs
+1192	mmurinus_homolog_ensembl_gene	Mouse Lemur gene stable ID	homologs
+1193	mmurinus_homolog_associated_gene_name	Mouse Lemur gene name	homologs
+1194	mmurinus_homolog_ensembl_peptide	Mouse Lemur protein or transcript stable ID	homologs
+1195	mmurinus_homolog_chromosome	Mouse Lemur chromosome/scaffold name	homologs
+1196	mmurinus_homolog_chrom_start	Mouse Lemur chromosome/scaffold start (bp)	homologs
+1197	mmurinus_homolog_chrom_end	Mouse Lemur chromosome/scaffold end (bp)	homologs
+1198	mmurinus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1199	mmurinus_homolog_subtype	Last common ancestor with Mouse Lemur	homologs
+1200	mmurinus_homolog_orthology_type	Mouse Lemur homology type	homologs
+1201	mmurinus_homolog_perc_id	%id. target Mouse Lemur gene identical to query gene	homologs
+1202	mmurinus_homolog_perc_id_r1	%id. query gene identical to target Mouse Lemur gene	homologs
+1203	mmurinus_homolog_goc_score	Mouse Lemur Gene-order conservation score	homologs
+1204	mmurinus_homolog_wga_coverage	Mouse Lemur Whole-genome alignment coverage	homologs
+1205	mmurinus_homolog_dn	dN with Mouse Lemur	homologs
+1206	mmurinus_homolog_ds	dS with Mouse Lemur	homologs
+1207	mmurinus_homolog_orthology_confidence	Mouse Lemur orthology confidence [0 low, 1 high]	homologs
+1208	hfemale_homolog_ensembl_gene	Naked mole-rat female gene stable ID	homologs
+1209	hfemale_homolog_associated_gene_name	Naked mole-rat female gene name	homologs
+1210	hfemale_homolog_ensembl_peptide	Naked mole-rat female protein or transcript stable ID	homologs
+1211	hfemale_homolog_chromosome	Naked mole-rat female chromosome/scaffold name	homologs
+1212	hfemale_homolog_chrom_start	Naked mole-rat female chromosome/scaffold start (bp)	homologs
+1213	hfemale_homolog_chrom_end	Naked mole-rat female chromosome/scaffold end (bp)	homologs
+1214	hfemale_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1215	hfemale_homolog_subtype	Last common ancestor with Naked mole-rat female	homologs
+1216	hfemale_homolog_orthology_type	Naked mole-rat female homology type	homologs
+1217	hfemale_homolog_perc_id	%id. target Naked mole-rat female gene identical to query gene	homologs
+1218	hfemale_homolog_perc_id_r1	%id. query gene identical to target Naked mole-rat female gene	homologs
+1219	hfemale_homolog_goc_score	Naked mole-rat female Gene-order conservation score	homologs
+1220	hfemale_homolog_wga_coverage	Naked mole-rat female Whole-genome alignment coverage	homologs
+1221	hfemale_homolog_dn	dN with Naked mole-rat female	homologs
+1222	hfemale_homolog_ds	dS with Naked mole-rat female	homologs
+1223	hfemale_homolog_orthology_confidence	Naked mole-rat female orthology confidence [0 low, 1 high]	homologs
+1224	hmale_homolog_ensembl_gene	Naked mole-rat male gene stable ID	homologs
+1225	hmale_homolog_associated_gene_name	Naked mole-rat male gene name	homologs
+1226	hmale_homolog_ensembl_peptide	Naked mole-rat male protein or transcript stable ID	homologs
+1227	hmale_homolog_chromosome	Naked mole-rat male chromosome/scaffold name	homologs
+1228	hmale_homolog_chrom_start	Naked mole-rat male chromosome/scaffold start (bp)	homologs
+1229	hmale_homolog_chrom_end	Naked mole-rat male chromosome/scaffold end (bp)	homologs
+1230	hmale_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1231	hmale_homolog_subtype	Last common ancestor with Naked mole-rat male	homologs
+1232	hmale_homolog_orthology_type	Naked mole-rat male homology type	homologs
+1233	hmale_homolog_perc_id	%id. target Naked mole-rat male gene identical to query gene	homologs
+1234	hmale_homolog_perc_id_r1	%id. query gene identical to target Naked mole-rat male gene	homologs
+1235	hmale_homolog_goc_score	Naked mole-rat male Gene-order conservation score	homologs
+1236	hmale_homolog_wga_coverage	Naked mole-rat male Whole-genome alignment coverage	homologs
+1237	hmale_homolog_dn	dN with Naked mole-rat male	homologs
+1238	hmale_homolog_ds	dS with Naked mole-rat male	homologs
+1239	hmale_homolog_orthology_confidence	Naked mole-rat male orthology confidence [0 low, 1 high]	homologs
+1240	pbairdii_homolog_ensembl_gene	Northern American deer mouse gene stable ID	homologs
+1241	pbairdii_homolog_associated_gene_name	Northern American deer mouse gene name	homologs
+1242	pbairdii_homolog_ensembl_peptide	Northern American deer mouse protein or transcript stable ID	homologs
+1243	pbairdii_homolog_chromosome	Northern American deer mouse chromosome/scaffold name	homologs
+1244	pbairdii_homolog_chrom_start	Northern American deer mouse chromosome/scaffold start (bp)	homologs
+1245	pbairdii_homolog_chrom_end	Northern American deer mouse chromosome/scaffold end (bp)	homologs
+1246	pbairdii_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1247	pbairdii_homolog_subtype	Last common ancestor with Northern American deer mouse	homologs
+1248	pbairdii_homolog_orthology_type	Northern American deer mouse homology type	homologs
+1249	pbairdii_homolog_perc_id	%id. target Northern American deer mouse gene identical to query gene	homologs
+1250	pbairdii_homolog_perc_id_r1	%id. query gene identical to target Northern American deer mouse gene	homologs
+1251	pbairdii_homolog_goc_score	Northern American deer mouse Gene-order conservation score	homologs
+1252	pbairdii_homolog_wga_coverage	Northern American deer mouse Whole-genome alignment coverage	homologs
+1253	pbairdii_homolog_dn	dN with Northern American deer mouse	homologs
+1254	pbairdii_homolog_ds	dS with Northern American deer mouse	homologs
+1255	pbairdii_homolog_orthology_confidence	Northern American deer mouse orthology confidence [0 low, 1 high]	homologs
+1256	panubis_homolog_ensembl_gene	Olive baboon gene stable ID	homologs
+1257	panubis_homolog_associated_gene_name	Olive baboon gene name	homologs
+1258	panubis_homolog_ensembl_peptide	Olive baboon protein or transcript stable ID	homologs
+1259	panubis_homolog_chromosome	Olive baboon chromosome/scaffold name	homologs
+1260	panubis_homolog_chrom_start	Olive baboon chromosome/scaffold start (bp)	homologs
+1261	panubis_homolog_chrom_end	Olive baboon chromosome/scaffold end (bp)	homologs
+1262	panubis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1263	panubis_homolog_subtype	Last common ancestor with Olive baboon	homologs
+1264	panubis_homolog_orthology_type	Olive baboon homology type	homologs
+1265	panubis_homolog_perc_id	%id. target Olive baboon gene identical to query gene	homologs
+1266	panubis_homolog_perc_id_r1	%id. query gene identical to target Olive baboon gene	homologs
+1267	panubis_homolog_goc_score	Olive baboon Gene-order conservation score	homologs
+1268	panubis_homolog_wga_coverage	Olive baboon Whole-genome alignment coverage	homologs
+1269	panubis_homolog_dn	dN with Olive baboon	homologs
+1270	panubis_homolog_ds	dS with Olive baboon	homologs
+1271	panubis_homolog_orthology_confidence	Olive baboon orthology confidence [0 low, 1 high]	homologs
+1272	mdomestica_homolog_ensembl_gene	Opossum gene stable ID	homologs
+1273	mdomestica_homolog_associated_gene_name	Opossum gene name	homologs
+1274	mdomestica_homolog_ensembl_peptide	Opossum protein or transcript stable ID	homologs
+1275	mdomestica_homolog_chromosome	Opossum chromosome/scaffold name	homologs
+1276	mdomestica_homolog_chrom_start	Opossum chromosome/scaffold start (bp)	homologs
+1277	mdomestica_homolog_chrom_end	Opossum chromosome/scaffold end (bp)	homologs
+1278	mdomestica_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1279	mdomestica_homolog_subtype	Last common ancestor with Opossum	homologs
+1280	mdomestica_homolog_orthology_type	Opossum homology type	homologs
+1281	mdomestica_homolog_perc_id	%id. target Opossum gene identical to query gene	homologs
+1282	mdomestica_homolog_perc_id_r1	%id. query gene identical to target Opossum gene	homologs
+1283	mdomestica_homolog_goc_score	Opossum Gene-order conservation score	homologs
+1284	mdomestica_homolog_wga_coverage	Opossum Whole-genome alignment coverage	homologs
+1285	mdomestica_homolog_dn	dN with Opossum	homologs
+1286	mdomestica_homolog_ds	dS with Opossum	homologs
+1287	mdomestica_homolog_orthology_confidence	Opossum orthology confidence [0 low, 1 high]	homologs
+1288	pabelii_homolog_ensembl_gene	Orangutan gene stable ID	homologs
+1289	pabelii_homolog_associated_gene_name	Orangutan gene name	homologs
+1290	pabelii_homolog_ensembl_peptide	Orangutan protein or transcript stable ID	homologs
+1291	pabelii_homolog_chromosome	Orangutan chromosome/scaffold name	homologs
+1292	pabelii_homolog_chrom_start	Orangutan chromosome/scaffold start (bp)	homologs
+1293	pabelii_homolog_chrom_end	Orangutan chromosome/scaffold end (bp)	homologs
+1294	pabelii_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1295	pabelii_homolog_subtype	Last common ancestor with Orangutan	homologs
+1296	pabelii_homolog_orthology_type	Orangutan homology type	homologs
+1297	pabelii_homolog_perc_id	%id. target Orangutan gene identical to query gene	homologs
+1298	pabelii_homolog_perc_id_r1	%id. query gene identical to target Orangutan gene	homologs
+1299	pabelii_homolog_goc_score	Orangutan Gene-order conservation score	homologs
+1300	pabelii_homolog_wga_coverage	Orangutan Whole-genome alignment coverage	homologs
+1301	pabelii_homolog_dn	dN with Orangutan	homologs
+1302	pabelii_homolog_ds	dS with Orangutan	homologs
+1303	pabelii_homolog_orthology_confidence	Orangutan orthology confidence [0 low, 1 high]	homologs
+1304	amelanoleuca_homolog_ensembl_gene	Panda gene stable ID	homologs
+1305	amelanoleuca_homolog_associated_gene_name	Panda gene name	homologs
+1306	amelanoleuca_homolog_ensembl_peptide	Panda protein or transcript stable ID	homologs
+1307	amelanoleuca_homolog_chromosome	Panda chromosome/scaffold name	homologs
+1308	amelanoleuca_homolog_chrom_start	Panda chromosome/scaffold start (bp)	homologs
+1309	amelanoleuca_homolog_chrom_end	Panda chromosome/scaffold end (bp)	homologs
+1310	amelanoleuca_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1311	amelanoleuca_homolog_subtype	Last common ancestor with Panda	homologs
+1312	amelanoleuca_homolog_orthology_type	Panda homology type	homologs
+1313	amelanoleuca_homolog_perc_id	%id. target Panda gene identical to query gene	homologs
+1314	amelanoleuca_homolog_perc_id_r1	%id. query gene identical to target Panda gene	homologs
+1315	amelanoleuca_homolog_goc_score	Panda Gene-order conservation score	homologs
+1316	amelanoleuca_homolog_wga_coverage	Panda Whole-genome alignment coverage	homologs
+1317	amelanoleuca_homolog_dn	dN with Panda	homologs
+1318	amelanoleuca_homolog_ds	dS with Panda	homologs
+1319	amelanoleuca_homolog_orthology_confidence	Panda orthology confidence [0 low, 1 high]	homologs
+1320	sscrofa_homolog_ensembl_gene	Pig gene stable ID	homologs
+1321	sscrofa_homolog_associated_gene_name	Pig gene name	homologs
+1322	sscrofa_homolog_ensembl_peptide	Pig protein or transcript stable ID	homologs
+1323	sscrofa_homolog_chromosome	Pig chromosome/scaffold name	homologs
+1324	sscrofa_homolog_chrom_start	Pig chromosome/scaffold start (bp)	homologs
+1325	sscrofa_homolog_chrom_end	Pig chromosome/scaffold end (bp)	homologs
+1326	sscrofa_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1327	sscrofa_homolog_subtype	Last common ancestor with Pig	homologs
+1328	sscrofa_homolog_orthology_type	Pig homology type	homologs
+1329	sscrofa_homolog_perc_id	%id. target Pig gene identical to query gene	homologs
+1330	sscrofa_homolog_perc_id_r1	%id. query gene identical to target Pig gene	homologs
+1331	sscrofa_homolog_goc_score	Pig Gene-order conservation score	homologs
+1332	sscrofa_homolog_wga_coverage	Pig Whole-genome alignment coverage	homologs
+1333	sscrofa_homolog_dn	dN with Pig	homologs
+1334	sscrofa_homolog_ds	dS with Pig	homologs
+1335	sscrofa_homolog_orthology_confidence	Pig orthology confidence [0 low, 1 high]	homologs
+1336	mnemestrina_homolog_ensembl_gene	Pig-tailed macaque gene stable ID	homologs
+1337	mnemestrina_homolog_associated_gene_name	Pig-tailed macaque gene name	homologs
+1338	mnemestrina_homolog_ensembl_peptide	Pig-tailed macaque protein or transcript stable ID	homologs
+1339	mnemestrina_homolog_chromosome	Pig-tailed macaque chromosome/scaffold name	homologs
+1340	mnemestrina_homolog_chrom_start	Pig-tailed macaque chromosome/scaffold start (bp)	homologs
+1341	mnemestrina_homolog_chrom_end	Pig-tailed macaque chromosome/scaffold end (bp)	homologs
+1342	mnemestrina_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1343	mnemestrina_homolog_subtype	Last common ancestor with Pig-tailed macaque	homologs
+1344	mnemestrina_homolog_orthology_type	Pig-tailed macaque homology type	homologs
+1345	mnemestrina_homolog_perc_id	%id. target Pig-tailed macaque gene identical to query gene	homologs
+1346	mnemestrina_homolog_perc_id_r1	%id. query gene identical to target Pig-tailed macaque gene	homologs
+1347	mnemestrina_homolog_goc_score	Pig-tailed macaque Gene-order conservation score	homologs
+1348	mnemestrina_homolog_wga_coverage	Pig-tailed macaque Whole-genome alignment coverage	homologs
+1349	mnemestrina_homolog_dn	dN with Pig-tailed macaque	homologs
+1350	mnemestrina_homolog_ds	dS with Pig-tailed macaque	homologs
+1351	mnemestrina_homolog_orthology_confidence	Pig-tailed macaque orthology confidence [0 low, 1 high]	homologs
+1352	oprinceps_homolog_ensembl_gene	Pika gene stable ID	homologs
+1353	oprinceps_homolog_associated_gene_name	Pika gene name	homologs
+1354	oprinceps_homolog_ensembl_peptide	Pika protein or transcript stable ID	homologs
+1355	oprinceps_homolog_chromosome	Pika chromosome/scaffold name	homologs
+1356	oprinceps_homolog_chrom_start	Pika chromosome/scaffold start (bp)	homologs
+1357	oprinceps_homolog_chrom_end	Pika chromosome/scaffold end (bp)	homologs
+1358	oprinceps_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1359	oprinceps_homolog_subtype	Last common ancestor with Pika	homologs
+1360	oprinceps_homolog_orthology_type	Pika homology type	homologs
+1361	oprinceps_homolog_perc_id	%id. target Pika gene identical to query gene	homologs
+1362	oprinceps_homolog_perc_id_r1	%id. query gene identical to target Pika gene	homologs
+1363	oprinceps_homolog_goc_score	Pika Gene-order conservation score	homologs
+1364	oprinceps_homolog_wga_coverage	Pika Whole-genome alignment coverage	homologs
+1365	oprinceps_homolog_dn	dN with Pika	homologs
+1366	oprinceps_homolog_ds	dS with Pika	homologs
+1367	oprinceps_homolog_orthology_confidence	Pika orthology confidence [0 low, 1 high]	homologs
+1368	xmaculatus_homolog_ensembl_gene	Platyfish gene stable ID	homologs
+1369	xmaculatus_homolog_associated_gene_name	Platyfish gene name	homologs
+1370	xmaculatus_homolog_ensembl_peptide	Platyfish protein or transcript stable ID	homologs
+1371	xmaculatus_homolog_chromosome	Platyfish chromosome/scaffold name	homologs
+1372	xmaculatus_homolog_chrom_start	Platyfish chromosome/scaffold start (bp)	homologs
+1373	xmaculatus_homolog_chrom_end	Platyfish chromosome/scaffold end (bp)	homologs
+1374	xmaculatus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1375	xmaculatus_homolog_subtype	Last common ancestor with Platyfish	homologs
+1376	xmaculatus_homolog_orthology_type	Platyfish homology type	homologs
+1377	xmaculatus_homolog_perc_id	%id. target Platyfish gene identical to query gene	homologs
+1378	xmaculatus_homolog_perc_id_r1	%id. query gene identical to target Platyfish gene	homologs
+1379	xmaculatus_homolog_goc_score	Platyfish Gene-order conservation score	homologs
+1380	xmaculatus_homolog_wga_coverage	Platyfish Whole-genome alignment coverage	homologs
+1381	xmaculatus_homolog_dn	dN with Platyfish	homologs
+1382	xmaculatus_homolog_ds	dS with Platyfish	homologs
+1383	xmaculatus_homolog_orthology_confidence	Platyfish orthology confidence [0 low, 1 high]	homologs
+1384	oanatinus_homolog_ensembl_gene	Platypus gene stable ID	homologs
+1385	oanatinus_homolog_associated_gene_name	Platypus gene name	homologs
+1386	oanatinus_homolog_ensembl_peptide	Platypus protein or transcript stable ID	homologs
+1387	oanatinus_homolog_chromosome	Platypus chromosome/scaffold name	homologs
+1388	oanatinus_homolog_chrom_start	Platypus chromosome/scaffold start (bp)	homologs
+1389	oanatinus_homolog_chrom_end	Platypus chromosome/scaffold end (bp)	homologs
+1390	oanatinus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1391	oanatinus_homolog_subtype	Last common ancestor with Platypus	homologs
+1392	oanatinus_homolog_orthology_type	Platypus homology type	homologs
+1393	oanatinus_homolog_perc_id	%id. target Platypus gene identical to query gene	homologs
+1394	oanatinus_homolog_perc_id_r1	%id. query gene identical to target Platypus gene	homologs
+1395	oanatinus_homolog_goc_score	Platypus Gene-order conservation score	homologs
+1396	oanatinus_homolog_wga_coverage	Platypus Whole-genome alignment coverage	homologs
+1397	oanatinus_homolog_dn	dN with Platypus	homologs
+1398	oanatinus_homolog_ds	dS with Platypus	homologs
+1399	oanatinus_homolog_orthology_confidence	Platypus orthology confidence [0 low, 1 high]	homologs
+1400	mochrogaster_homolog_ensembl_gene	Prairie vole gene stable ID	homologs
+1401	mochrogaster_homolog_associated_gene_name	Prairie vole gene name	homologs
+1402	mochrogaster_homolog_ensembl_peptide	Prairie vole protein or transcript stable ID	homologs
+1403	mochrogaster_homolog_chromosome	Prairie vole chromosome/scaffold name	homologs
+1404	mochrogaster_homolog_chrom_start	Prairie vole chromosome/scaffold start (bp)	homologs
+1405	mochrogaster_homolog_chrom_end	Prairie vole chromosome/scaffold end (bp)	homologs
+1406	mochrogaster_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1407	mochrogaster_homolog_subtype	Last common ancestor with Prairie vole	homologs
+1408	mochrogaster_homolog_orthology_type	Prairie vole homology type	homologs
+1409	mochrogaster_homolog_perc_id	%id. target Prairie vole gene identical to query gene	homologs
+1410	mochrogaster_homolog_perc_id_r1	%id. query gene identical to target Prairie vole gene	homologs
+1411	mochrogaster_homolog_goc_score	Prairie vole Gene-order conservation score	homologs
+1412	mochrogaster_homolog_wga_coverage	Prairie vole Whole-genome alignment coverage	homologs
+1413	mochrogaster_homolog_dn	dN with Prairie vole	homologs
+1414	mochrogaster_homolog_ds	dS with Prairie vole	homologs
+1415	mochrogaster_homolog_orthology_confidence	Prairie vole orthology confidence [0 low, 1 high]	homologs
+1416	ocuniculus_homolog_ensembl_gene	Rabbit gene stable ID	homologs
+1417	ocuniculus_homolog_associated_gene_name	Rabbit gene name	homologs
+1418	ocuniculus_homolog_ensembl_peptide	Rabbit protein or transcript stable ID	homologs
+1419	ocuniculus_homolog_chromosome	Rabbit chromosome/scaffold name	homologs
+1420	ocuniculus_homolog_chrom_start	Rabbit chromosome/scaffold start (bp)	homologs
+1421	ocuniculus_homolog_chrom_end	Rabbit chromosome/scaffold end (bp)	homologs
+1422	ocuniculus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1423	ocuniculus_homolog_subtype	Last common ancestor with Rabbit	homologs
+1424	ocuniculus_homolog_orthology_type	Rabbit homology type	homologs
+1425	ocuniculus_homolog_perc_id	%id. target Rabbit gene identical to query gene	homologs
+1426	ocuniculus_homolog_perc_id_r1	%id. query gene identical to target Rabbit gene	homologs
+1427	ocuniculus_homolog_goc_score	Rabbit Gene-order conservation score	homologs
+1428	ocuniculus_homolog_wga_coverage	Rabbit Whole-genome alignment coverage	homologs
+1429	ocuniculus_homolog_dn	dN with Rabbit	homologs
+1430	ocuniculus_homolog_ds	dS with Rabbit	homologs
+1431	ocuniculus_homolog_orthology_confidence	Rabbit orthology confidence [0 low, 1 high]	homologs
+1432	rnorvegicus_homolog_ensembl_gene	Rat gene stable ID	homologs
+1433	rnorvegicus_homolog_associated_gene_name	Rat gene name	homologs
+1434	rnorvegicus_homolog_ensembl_peptide	Rat protein or transcript stable ID	homologs
+1435	rnorvegicus_homolog_chromosome	Rat chromosome/scaffold name	homologs
+1436	rnorvegicus_homolog_chrom_start	Rat chromosome/scaffold start (bp)	homologs
+1437	rnorvegicus_homolog_chrom_end	Rat chromosome/scaffold end (bp)	homologs
+1438	rnorvegicus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1439	rnorvegicus_homolog_subtype	Last common ancestor with Rat	homologs
+1440	rnorvegicus_homolog_orthology_type	Rat homology type	homologs
+1441	rnorvegicus_homolog_perc_id	%id. target Rat gene identical to query gene	homologs
+1442	rnorvegicus_homolog_perc_id_r1	%id. query gene identical to target Rat gene	homologs
+1443	rnorvegicus_homolog_goc_score	Rat Gene-order conservation score	homologs
+1444	rnorvegicus_homolog_wga_coverage	Rat Whole-genome alignment coverage	homologs
+1445	rnorvegicus_homolog_dn	dN with Rat	homologs
+1446	rnorvegicus_homolog_ds	dS with Rat	homologs
+1447	rnorvegicus_homolog_orthology_confidence	Rat orthology confidence [0 low, 1 high]	homologs
+1448	mcaroli_homolog_ensembl_gene	Ryukyu mouse gene stable ID	homologs
+1449	mcaroli_homolog_associated_gene_name	Ryukyu mouse gene name	homologs
+1450	mcaroli_homolog_ensembl_peptide	Ryukyu mouse protein or transcript stable ID	homologs
+1451	mcaroli_homolog_chromosome	Ryukyu mouse chromosome/scaffold name	homologs
+1452	mcaroli_homolog_chrom_start	Ryukyu mouse chromosome/scaffold start (bp)	homologs
+1453	mcaroli_homolog_chrom_end	Ryukyu mouse chromosome/scaffold end (bp)	homologs
+1454	mcaroli_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1455	mcaroli_homolog_subtype	Last common ancestor with Ryukyu mouse	homologs
+1456	mcaroli_homolog_orthology_type	Ryukyu mouse homology type	homologs
+1457	mcaroli_homolog_perc_id	%id. target Ryukyu mouse gene identical to query gene	homologs
+1458	mcaroli_homolog_perc_id_r1	%id. query gene identical to target Ryukyu mouse gene	homologs
+1459	mcaroli_homolog_goc_score	Ryukyu mouse Gene-order conservation score	homologs
+1460	mcaroli_homolog_wga_coverage	Ryukyu mouse Whole-genome alignment coverage	homologs
+1461	mcaroli_homolog_dn	dN with Ryukyu mouse	homologs
+1462	mcaroli_homolog_ds	dS with Ryukyu mouse	homologs
+1463	mcaroli_homolog_orthology_confidence	Ryukyu mouse orthology confidence [0 low, 1 high]	homologs
+1464	scerevisiae_homolog_ensembl_gene	Saccharomyces cerevisiae gene stable ID	homologs
+1465	scerevisiae_homolog_associated_gene_name	Saccharomyces cerevisiae gene name	homologs
+1466	scerevisiae_homolog_ensembl_peptide	Saccharomyces cerevisiae protein or transcript stable ID	homologs
+1467	scerevisiae_homolog_chromosome	Saccharomyces cerevisiae chromosome/scaffold name	homologs
+1468	scerevisiae_homolog_chrom_start	Saccharomyces cerevisiae chromosome/scaffold start (bp)	homologs
+1469	scerevisiae_homolog_chrom_end	Saccharomyces cerevisiae chromosome/scaffold end (bp)	homologs
+1470	scerevisiae_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1471	scerevisiae_homolog_subtype	Last common ancestor with Saccharomyces cerevisiae	homologs
+1472	scerevisiae_homolog_orthology_type	Saccharomyces cerevisiae homology type	homologs
+1473	scerevisiae_homolog_perc_id	%id. target Saccharomyces cerevisiae gene identical to query gene	homologs
+1474	scerevisiae_homolog_perc_id_r1	%id. query gene identical to target Saccharomyces cerevisiae gene	homologs
+1475	scerevisiae_homolog_goc_score	Saccharomyces cerevisiae Gene-order conservation score	homologs
+1476	scerevisiae_homolog_wga_coverage	Saccharomyces cerevisiae Whole-genome alignment coverage	homologs
+1477	scerevisiae_homolog_dn	dN with Saccharomyces cerevisiae	homologs
+1478	scerevisiae_homolog_ds	dS with Saccharomyces cerevisiae	homologs
+1479	scerevisiae_homolog_orthology_confidence	Saccharomyces cerevisiae orthology confidence [0 low, 1 high]	homologs
+1480	oaries_homolog_ensembl_gene	Sheep gene stable ID	homologs
+1481	oaries_homolog_associated_gene_name	Sheep gene name	homologs
+1482	oaries_homolog_ensembl_peptide	Sheep protein or transcript stable ID	homologs
+1483	oaries_homolog_chromosome	Sheep chromosome/scaffold name	homologs
+1484	oaries_homolog_chrom_start	Sheep chromosome/scaffold start (bp)	homologs
+1485	oaries_homolog_chrom_end	Sheep chromosome/scaffold end (bp)	homologs
+1486	oaries_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1487	oaries_homolog_subtype	Last common ancestor with Sheep	homologs
+1488	oaries_homolog_orthology_type	Sheep homology type	homologs
+1489	oaries_homolog_perc_id	%id. target Sheep gene identical to query gene	homologs
+1490	oaries_homolog_perc_id_r1	%id. query gene identical to target Sheep gene	homologs
+1491	oaries_homolog_goc_score	Sheep Gene-order conservation score	homologs
+1492	oaries_homolog_wga_coverage	Sheep Whole-genome alignment coverage	homologs
+1493	oaries_homolog_dn	dN with Sheep	homologs
+1494	oaries_homolog_ds	dS with Sheep	homologs
+1495	oaries_homolog_orthology_confidence	Sheep orthology confidence [0 low, 1 high]	homologs
+1496	saraneus_homolog_ensembl_gene	Shrew gene stable ID	homologs
+1497	saraneus_homolog_associated_gene_name	Shrew gene name	homologs
+1498	saraneus_homolog_ensembl_peptide	Shrew protein or transcript stable ID	homologs
+1499	saraneus_homolog_chromosome	Shrew chromosome/scaffold name	homologs
+1500	saraneus_homolog_chrom_start	Shrew chromosome/scaffold start (bp)	homologs
+1501	saraneus_homolog_chrom_end	Shrew chromosome/scaffold end (bp)	homologs
+1502	saraneus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1503	saraneus_homolog_subtype	Last common ancestor with Shrew	homologs
+1504	saraneus_homolog_orthology_type	Shrew homology type	homologs
+1505	saraneus_homolog_perc_id	%id. target Shrew gene identical to query gene	homologs
+1506	saraneus_homolog_perc_id_r1	%id. query gene identical to target Shrew gene	homologs
+1507	saraneus_homolog_goc_score	Shrew Gene-order conservation score	homologs
+1508	saraneus_homolog_wga_coverage	Shrew Whole-genome alignment coverage	homologs
+1509	saraneus_homolog_dn	dN with Shrew	homologs
+1510	saraneus_homolog_ds	dS with Shrew	homologs
+1511	saraneus_homolog_orthology_confidence	Shrew orthology confidence [0 low, 1 high]	homologs
+1512	mpahari_homolog_ensembl_gene	Shrew mouse gene stable ID	homologs
+1513	mpahari_homolog_associated_gene_name	Shrew mouse gene name	homologs
+1514	mpahari_homolog_ensembl_peptide	Shrew mouse protein or transcript stable ID	homologs
+1515	mpahari_homolog_chromosome	Shrew mouse chromosome/scaffold name	homologs
+1516	mpahari_homolog_chrom_start	Shrew mouse chromosome/scaffold start (bp)	homologs
+1517	mpahari_homolog_chrom_end	Shrew mouse chromosome/scaffold end (bp)	homologs
+1518	mpahari_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1519	mpahari_homolog_subtype	Last common ancestor with Shrew mouse	homologs
+1520	mpahari_homolog_orthology_type	Shrew mouse homology type	homologs
+1521	mpahari_homolog_perc_id	%id. target Shrew mouse gene identical to query gene	homologs
+1522	mpahari_homolog_perc_id_r1	%id. query gene identical to target Shrew mouse gene	homologs
+1523	mpahari_homolog_goc_score	Shrew mouse Gene-order conservation score	homologs
+1524	mpahari_homolog_wga_coverage	Shrew mouse Whole-genome alignment coverage	homologs
+1525	mpahari_homolog_dn	dN with Shrew mouse	homologs
+1526	mpahari_homolog_ds	dS with Shrew mouse	homologs
+1527	mpahari_homolog_orthology_confidence	Shrew mouse orthology confidence [0 low, 1 high]	homologs
+1528	choffmanni_homolog_ensembl_gene	Sloth gene stable ID	homologs
+1529	choffmanni_homolog_associated_gene_name	Sloth gene name	homologs
+1530	choffmanni_homolog_ensembl_peptide	Sloth protein or transcript stable ID	homologs
+1531	choffmanni_homolog_chromosome	Sloth chromosome/scaffold name	homologs
+1532	choffmanni_homolog_chrom_start	Sloth chromosome/scaffold start (bp)	homologs
+1533	choffmanni_homolog_chrom_end	Sloth chromosome/scaffold end (bp)	homologs
+1534	choffmanni_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1535	choffmanni_homolog_subtype	Last common ancestor with Sloth	homologs
+1536	choffmanni_homolog_orthology_type	Sloth homology type	homologs
+1537	choffmanni_homolog_perc_id	%id. target Sloth gene identical to query gene	homologs
+1538	choffmanni_homolog_perc_id_r1	%id. query gene identical to target Sloth gene	homologs
+1539	choffmanni_homolog_goc_score	Sloth Gene-order conservation score	homologs
+1540	choffmanni_homolog_wga_coverage	Sloth Whole-genome alignment coverage	homologs
+1541	choffmanni_homolog_dn	dN with Sloth	homologs
+1542	choffmanni_homolog_ds	dS with Sloth	homologs
+1543	choffmanni_homolog_orthology_confidence	Sloth orthology confidence [0 low, 1 high]	homologs
+1544	catys_homolog_ensembl_gene	Sooty mangabey gene stable ID	homologs
+1545	catys_homolog_associated_gene_name	Sooty mangabey gene name	homologs
+1546	catys_homolog_ensembl_peptide	Sooty mangabey protein or transcript stable ID	homologs
+1547	catys_homolog_chromosome	Sooty mangabey chromosome/scaffold name	homologs
+1548	catys_homolog_chrom_start	Sooty mangabey chromosome/scaffold start (bp)	homologs
+1549	catys_homolog_chrom_end	Sooty mangabey chromosome/scaffold end (bp)	homologs
+1550	catys_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1551	catys_homolog_subtype	Last common ancestor with Sooty mangabey	homologs
+1552	catys_homolog_orthology_type	Sooty mangabey homology type	homologs
+1553	catys_homolog_perc_id	%id. target Sooty mangabey gene identical to query gene	homologs
+1554	catys_homolog_perc_id_r1	%id. query gene identical to target Sooty mangabey gene	homologs
+1555	catys_homolog_goc_score	Sooty mangabey Gene-order conservation score	homologs
+1556	catys_homolog_wga_coverage	Sooty mangabey Whole-genome alignment coverage	homologs
+1557	catys_homolog_dn	dN with Sooty mangabey	homologs
+1558	catys_homolog_ds	dS with Sooty mangabey	homologs
+1559	catys_homolog_orthology_confidence	Sooty mangabey orthology confidence [0 low, 1 high]	homologs
+1560	loculatus_homolog_ensembl_gene	Spotted gar gene stable ID	homologs
+1561	loculatus_homolog_associated_gene_name	Spotted gar gene name	homologs
+1562	loculatus_homolog_ensembl_peptide	Spotted gar protein or transcript stable ID	homologs
+1563	loculatus_homolog_chromosome	Spotted gar chromosome/scaffold name	homologs
+1564	loculatus_homolog_chrom_start	Spotted gar chromosome/scaffold start (bp)	homologs
+1565	loculatus_homolog_chrom_end	Spotted gar chromosome/scaffold end (bp)	homologs
+1566	loculatus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1567	loculatus_homolog_subtype	Last common ancestor with Spotted gar	homologs
+1568	loculatus_homolog_orthology_type	Spotted gar homology type	homologs
+1569	loculatus_homolog_perc_id	%id. target Spotted gar gene identical to query gene	homologs
+1570	loculatus_homolog_perc_id_r1	%id. query gene identical to target Spotted gar gene	homologs
+1571	loculatus_homolog_goc_score	Spotted gar Gene-order conservation score	homologs
+1572	loculatus_homolog_wga_coverage	Spotted gar Whole-genome alignment coverage	homologs
+1573	loculatus_homolog_dn	dN with Spotted gar	homologs
+1574	loculatus_homolog_ds	dS with Spotted gar	homologs
+1575	loculatus_homolog_orthology_confidence	Spotted gar orthology confidence [0 low, 1 high]	homologs
+1576	itridecemlineatus_homolog_ensembl_gene	Squirrel gene stable ID	homologs
+1577	itridecemlineatus_homolog_associated_gene_name	Squirrel gene name	homologs
+1578	itridecemlineatus_homolog_ensembl_peptide	Squirrel protein or transcript stable ID	homologs
+1579	itridecemlineatus_homolog_chromosome	Squirrel chromosome/scaffold name	homologs
+1580	itridecemlineatus_homolog_chrom_start	Squirrel chromosome/scaffold start (bp)	homologs
+1581	itridecemlineatus_homolog_chrom_end	Squirrel chromosome/scaffold end (bp)	homologs
+1582	itridecemlineatus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1583	itridecemlineatus_homolog_subtype	Last common ancestor with Squirrel	homologs
+1584	itridecemlineatus_homolog_orthology_type	Squirrel homology type	homologs
+1585	itridecemlineatus_homolog_perc_id	%id. target Squirrel gene identical to query gene	homologs
+1586	itridecemlineatus_homolog_perc_id_r1	%id. query gene identical to target Squirrel gene	homologs
+1587	itridecemlineatus_homolog_goc_score	Squirrel Gene-order conservation score	homologs
+1588	itridecemlineatus_homolog_wga_coverage	Squirrel Whole-genome alignment coverage	homologs
+1589	itridecemlineatus_homolog_dn	dN with Squirrel	homologs
+1590	itridecemlineatus_homolog_ds	dS with Squirrel	homologs
+1591	itridecemlineatus_homolog_orthology_confidence	Squirrel orthology confidence [0 low, 1 high]	homologs
+1592	gaculeatus_homolog_ensembl_gene	Stickleback gene stable ID	homologs
+1593	gaculeatus_homolog_associated_gene_name	Stickleback gene name	homologs
+1594	gaculeatus_homolog_ensembl_peptide	Stickleback protein or transcript stable ID	homologs
+1595	gaculeatus_homolog_chromosome	Stickleback chromosome/scaffold name	homologs
+1596	gaculeatus_homolog_chrom_start	Stickleback chromosome/scaffold start (bp)	homologs
+1597	gaculeatus_homolog_chrom_end	Stickleback chromosome/scaffold end (bp)	homologs
+1598	gaculeatus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1599	gaculeatus_homolog_subtype	Last common ancestor with Stickleback	homologs
+1600	gaculeatus_homolog_orthology_type	Stickleback homology type	homologs
+1601	gaculeatus_homolog_perc_id	%id. target Stickleback gene identical to query gene	homologs
+1602	gaculeatus_homolog_perc_id_r1	%id. query gene identical to target Stickleback gene	homologs
+1603	gaculeatus_homolog_goc_score	Stickleback Gene-order conservation score	homologs
+1604	gaculeatus_homolog_wga_coverage	Stickleback Whole-genome alignment coverage	homologs
+1605	gaculeatus_homolog_dn	dN with Stickleback	homologs
+1606	gaculeatus_homolog_ds	dS with Stickleback	homologs
+1607	gaculeatus_homolog_orthology_confidence	Stickleback orthology confidence [0 low, 1 high]	homologs
+1608	csyrichta_homolog_ensembl_gene	Tarsier gene stable ID	homologs
+1609	csyrichta_homolog_associated_gene_name	Tarsier gene name	homologs
+1610	csyrichta_homolog_ensembl_peptide	Tarsier protein or transcript stable ID	homologs
+1611	csyrichta_homolog_chromosome	Tarsier chromosome/scaffold name	homologs
+1612	csyrichta_homolog_chrom_start	Tarsier chromosome/scaffold start (bp)	homologs
+1613	csyrichta_homolog_chrom_end	Tarsier chromosome/scaffold end (bp)	homologs
+1614	csyrichta_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1615	csyrichta_homolog_subtype	Last common ancestor with Tarsier	homologs
+1616	csyrichta_homolog_orthology_type	Tarsier homology type	homologs
+1617	csyrichta_homolog_perc_id	%id. target Tarsier gene identical to query gene	homologs
+1618	csyrichta_homolog_perc_id_r1	%id. query gene identical to target Tarsier gene	homologs
+1619	csyrichta_homolog_goc_score	Tarsier Gene-order conservation score	homologs
+1620	csyrichta_homolog_wga_coverage	Tarsier Whole-genome alignment coverage	homologs
+1621	csyrichta_homolog_dn	dN with Tarsier	homologs
+1622	csyrichta_homolog_ds	dS with Tarsier	homologs
+1623	csyrichta_homolog_orthology_confidence	Tarsier orthology confidence [0 low, 1 high]	homologs
+1624	sharrisii_homolog_ensembl_gene	Tasmanian devil gene stable ID	homologs
+1625	sharrisii_homolog_associated_gene_name	Tasmanian devil gene name	homologs
+1626	sharrisii_homolog_ensembl_peptide	Tasmanian devil protein or transcript stable ID	homologs
+1627	sharrisii_homolog_chromosome	Tasmanian devil chromosome/scaffold name	homologs
+1628	sharrisii_homolog_chrom_start	Tasmanian devil chromosome/scaffold start (bp)	homologs
+1629	sharrisii_homolog_chrom_end	Tasmanian devil chromosome/scaffold end (bp)	homologs
+1630	sharrisii_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1631	sharrisii_homolog_subtype	Last common ancestor with Tasmanian devil	homologs
+1632	sharrisii_homolog_orthology_type	Tasmanian devil homology type	homologs
+1633	sharrisii_homolog_perc_id	%id. target Tasmanian devil gene identical to query gene	homologs
+1634	sharrisii_homolog_perc_id_r1	%id. query gene identical to target Tasmanian devil gene	homologs
+1635	sharrisii_homolog_goc_score	Tasmanian devil Gene-order conservation score	homologs
+1636	sharrisii_homolog_wga_coverage	Tasmanian devil Whole-genome alignment coverage	homologs
+1637	sharrisii_homolog_dn	dN with Tasmanian devil	homologs
+1638	sharrisii_homolog_ds	dS with Tasmanian devil	homologs
+1639	sharrisii_homolog_orthology_confidence	Tasmanian devil orthology confidence [0 low, 1 high]	homologs
+1640	tnigroviridis_homolog_ensembl_gene	Tetraodon gene stable ID	homologs
+1641	tnigroviridis_homolog_associated_gene_name	Tetraodon gene name	homologs
+1642	tnigroviridis_homolog_ensembl_peptide	Tetraodon protein or transcript stable ID	homologs
+1643	tnigroviridis_homolog_chromosome	Tetraodon chromosome/scaffold name	homologs
+1644	tnigroviridis_homolog_chrom_start	Tetraodon chromosome/scaffold start (bp)	homologs
+1645	tnigroviridis_homolog_chrom_end	Tetraodon chromosome/scaffold end (bp)	homologs
+1646	tnigroviridis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1647	tnigroviridis_homolog_subtype	Last common ancestor with Tetraodon	homologs
+1648	tnigroviridis_homolog_orthology_type	Tetraodon homology type	homologs
+1649	tnigroviridis_homolog_perc_id	%id. target Tetraodon gene identical to query gene	homologs
+1650	tnigroviridis_homolog_perc_id_r1	%id. query gene identical to target Tetraodon gene	homologs
+1651	tnigroviridis_homolog_goc_score	Tetraodon Gene-order conservation score	homologs
+1652	tnigroviridis_homolog_wga_coverage	Tetraodon Whole-genome alignment coverage	homologs
+1653	tnigroviridis_homolog_dn	dN with Tetraodon	homologs
+1654	tnigroviridis_homolog_ds	dS with Tetraodon	homologs
+1655	tnigroviridis_homolog_orthology_confidence	Tetraodon orthology confidence [0 low, 1 high]	homologs
+1656	oniloticus_homolog_ensembl_gene	Tilapia gene stable ID	homologs
+1657	oniloticus_homolog_associated_gene_name	Tilapia gene name	homologs
+1658	oniloticus_homolog_ensembl_peptide	Tilapia protein or transcript stable ID	homologs
+1659	oniloticus_homolog_chromosome	Tilapia chromosome/scaffold name	homologs
+1660	oniloticus_homolog_chrom_start	Tilapia chromosome/scaffold start (bp)	homologs
+1661	oniloticus_homolog_chrom_end	Tilapia chromosome/scaffold end (bp)	homologs
+1662	oniloticus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1663	oniloticus_homolog_subtype	Last common ancestor with Tilapia	homologs
+1664	oniloticus_homolog_orthology_type	Tilapia homology type	homologs
+1665	oniloticus_homolog_perc_id	%id. target Tilapia gene identical to query gene	homologs
+1666	oniloticus_homolog_perc_id_r1	%id. query gene identical to target Tilapia gene	homologs
+1667	oniloticus_homolog_goc_score	Tilapia Gene-order conservation score	homologs
+1668	oniloticus_homolog_wga_coverage	Tilapia Whole-genome alignment coverage	homologs
+1669	oniloticus_homolog_dn	dN with Tilapia	homologs
+1670	oniloticus_homolog_ds	dS with Tilapia	homologs
+1671	oniloticus_homolog_orthology_confidence	Tilapia orthology confidence [0 low, 1 high]	homologs
+1672	tbelangeri_homolog_ensembl_gene	Tree Shrew gene stable ID	homologs
+1673	tbelangeri_homolog_associated_gene_name	Tree Shrew gene name	homologs
+1674	tbelangeri_homolog_ensembl_peptide	Tree Shrew protein or transcript stable ID	homologs
+1675	tbelangeri_homolog_chromosome	Tree Shrew chromosome/scaffold name	homologs
+1676	tbelangeri_homolog_chrom_start	Tree Shrew chromosome/scaffold start (bp)	homologs
+1677	tbelangeri_homolog_chrom_end	Tree Shrew chromosome/scaffold end (bp)	homologs
+1678	tbelangeri_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1679	tbelangeri_homolog_subtype	Last common ancestor with Tree Shrew	homologs
+1680	tbelangeri_homolog_orthology_type	Tree Shrew homology type	homologs
+1681	tbelangeri_homolog_perc_id	%id. target Tree Shrew gene identical to query gene	homologs
+1682	tbelangeri_homolog_perc_id_r1	%id. query gene identical to target Tree Shrew gene	homologs
+1683	tbelangeri_homolog_goc_score	Tree Shrew Gene-order conservation score	homologs
+1684	tbelangeri_homolog_wga_coverage	Tree Shrew Whole-genome alignment coverage	homologs
+1685	tbelangeri_homolog_dn	dN with Tree Shrew	homologs
+1686	tbelangeri_homolog_ds	dS with Tree Shrew	homologs
+1687	tbelangeri_homolog_orthology_confidence	Tree Shrew orthology confidence [0 low, 1 high]	homologs
+1688	mgallopavo_homolog_ensembl_gene	Turkey gene stable ID	homologs
+1689	mgallopavo_homolog_associated_gene_name	Turkey gene name	homologs
+1690	mgallopavo_homolog_ensembl_peptide	Turkey protein or transcript stable ID	homologs
+1691	mgallopavo_homolog_chromosome	Turkey chromosome/scaffold name	homologs
+1692	mgallopavo_homolog_chrom_start	Turkey chromosome/scaffold start (bp)	homologs
+1693	mgallopavo_homolog_chrom_end	Turkey chromosome/scaffold end (bp)	homologs
+1694	mgallopavo_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1695	mgallopavo_homolog_subtype	Last common ancestor with Turkey	homologs
+1696	mgallopavo_homolog_orthology_type	Turkey homology type	homologs
+1697	mgallopavo_homolog_perc_id	%id. target Turkey gene identical to query gene	homologs
+1698	mgallopavo_homolog_perc_id_r1	%id. query gene identical to target Turkey gene	homologs
+1699	mgallopavo_homolog_goc_score	Turkey Gene-order conservation score	homologs
+1700	mgallopavo_homolog_wga_coverage	Turkey Whole-genome alignment coverage	homologs
+1701	mgallopavo_homolog_dn	dN with Turkey	homologs
+1702	mgallopavo_homolog_ds	dS with Turkey	homologs
+1703	mgallopavo_homolog_orthology_confidence	Turkey orthology confidence [0 low, 1 high]	homologs
+1704	ngalili_homolog_ensembl_gene	Upper Galilee mountains blind mole rat gene stable ID	homologs
+1705	ngalili_homolog_associated_gene_name	Upper Galilee mountains blind mole rat gene name	homologs
+1706	ngalili_homolog_ensembl_peptide	Upper Galilee mountains blind mole rat protein or transcript stable ID	homologs
+1707	ngalili_homolog_chromosome	Upper Galilee mountains blind mole rat chromosome/scaffold name	homologs
+1708	ngalili_homolog_chrom_start	Upper Galilee mountains blind mole rat chromosome/scaffold start (bp)	homologs
+1709	ngalili_homolog_chrom_end	Upper Galilee mountains blind mole rat chromosome/scaffold end (bp)	homologs
+1710	ngalili_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1711	ngalili_homolog_subtype	Last common ancestor with Upper Galilee mountains blind mole rat	homologs
+1712	ngalili_homolog_orthology_type	Upper Galilee mountains blind mole rat homology type	homologs
+1713	ngalili_homolog_perc_id	%id. target Upper Galilee mountains blind mole rat gene identical to query gene	homologs
+1714	ngalili_homolog_perc_id_r1	%id. query gene identical to target Upper Galilee mountains blind mole rat gene	homologs
+1715	ngalili_homolog_goc_score	Upper Galilee mountains blind mole rat Gene-order conservation score	homologs
+1716	ngalili_homolog_wga_coverage	Upper Galilee mountains blind mole rat Whole-genome alignment coverage	homologs
+1717	ngalili_homolog_dn	dN with Upper Galilee mountains blind mole rat	homologs
+1718	ngalili_homolog_ds	dS with Upper Galilee mountains blind mole rat	homologs
+1719	ngalili_homolog_orthology_confidence	Upper Galilee mountains blind mole rat orthology confidence [0 low, 1 high]	homologs
+1720	csabaeus_homolog_ensembl_gene	Vervet-AGM gene stable ID	homologs
+1721	csabaeus_homolog_associated_gene_name	Vervet-AGM gene name	homologs
+1722	csabaeus_homolog_ensembl_peptide	Vervet-AGM protein or transcript stable ID	homologs
+1723	csabaeus_homolog_chromosome	Vervet-AGM chromosome/scaffold name	homologs
+1724	csabaeus_homolog_chrom_start	Vervet-AGM chromosome/scaffold start (bp)	homologs
+1725	csabaeus_homolog_chrom_end	Vervet-AGM chromosome/scaffold end (bp)	homologs
+1726	csabaeus_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1727	csabaeus_homolog_subtype	Last common ancestor with Vervet-AGM	homologs
+1728	csabaeus_homolog_orthology_type	Vervet-AGM homology type	homologs
+1729	csabaeus_homolog_perc_id	%id. target Vervet-AGM gene identical to query gene	homologs
+1730	csabaeus_homolog_perc_id_r1	%id. query gene identical to target Vervet-AGM gene	homologs
+1731	csabaeus_homolog_goc_score	Vervet-AGM Gene-order conservation score	homologs
+1732	csabaeus_homolog_wga_coverage	Vervet-AGM Whole-genome alignment coverage	homologs
+1733	csabaeus_homolog_dn	dN with Vervet-AGM	homologs
+1734	csabaeus_homolog_ds	dS with Vervet-AGM	homologs
+1735	csabaeus_homolog_orthology_confidence	Vervet-AGM orthology confidence [0 low, 1 high]	homologs
+1736	neugenii_homolog_ensembl_gene	Wallaby gene stable ID	homologs
+1737	neugenii_homolog_associated_gene_name	Wallaby gene name	homologs
+1738	neugenii_homolog_ensembl_peptide	Wallaby protein or transcript stable ID	homologs
+1739	neugenii_homolog_chromosome	Wallaby chromosome/scaffold name	homologs
+1740	neugenii_homolog_chrom_start	Wallaby chromosome/scaffold start (bp)	homologs
+1741	neugenii_homolog_chrom_end	Wallaby chromosome/scaffold end (bp)	homologs
+1742	neugenii_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1743	neugenii_homolog_subtype	Last common ancestor with Wallaby	homologs
+1744	neugenii_homolog_orthology_type	Wallaby homology type	homologs
+1745	neugenii_homolog_perc_id	%id. target Wallaby gene identical to query gene	homologs
+1746	neugenii_homolog_perc_id_r1	%id. query gene identical to target Wallaby gene	homologs
+1747	neugenii_homolog_goc_score	Wallaby Gene-order conservation score	homologs
+1748	neugenii_homolog_wga_coverage	Wallaby Whole-genome alignment coverage	homologs
+1749	neugenii_homolog_dn	dN with Wallaby	homologs
+1750	neugenii_homolog_ds	dS with Wallaby	homologs
+1751	neugenii_homolog_orthology_confidence	Wallaby orthology confidence [0 low, 1 high]	homologs
+1752	xtropicalis_homolog_ensembl_gene	Xenopus gene stable ID	homologs
+1753	xtropicalis_homolog_associated_gene_name	Xenopus gene name	homologs
+1754	xtropicalis_homolog_ensembl_peptide	Xenopus protein or transcript stable ID	homologs
+1755	xtropicalis_homolog_chromosome	Xenopus chromosome/scaffold name	homologs
+1756	xtropicalis_homolog_chrom_start	Xenopus chromosome/scaffold start (bp)	homologs
+1757	xtropicalis_homolog_chrom_end	Xenopus chromosome/scaffold end (bp)	homologs
+1758	xtropicalis_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1759	xtropicalis_homolog_subtype	Last common ancestor with Xenopus	homologs
+1760	xtropicalis_homolog_orthology_type	Xenopus homology type	homologs
+1761	xtropicalis_homolog_perc_id	%id. target Xenopus gene identical to query gene	homologs
+1762	xtropicalis_homolog_perc_id_r1	%id. query gene identical to target Xenopus gene	homologs
+1763	xtropicalis_homolog_goc_score	Xenopus Gene-order conservation score	homologs
+1764	xtropicalis_homolog_wga_coverage	Xenopus Whole-genome alignment coverage	homologs
+1765	xtropicalis_homolog_dn	dN with Xenopus	homologs
+1766	xtropicalis_homolog_ds	dS with Xenopus	homologs
+1767	xtropicalis_homolog_orthology_confidence	Xenopus orthology confidence [0 low, 1 high]	homologs
+1768	tguttata_homolog_ensembl_gene	Zebra Finch gene stable ID	homologs
+1769	tguttata_homolog_associated_gene_name	Zebra Finch gene name	homologs
+1770	tguttata_homolog_ensembl_peptide	Zebra Finch protein or transcript stable ID	homologs
+1771	tguttata_homolog_chromosome	Zebra Finch chromosome/scaffold name	homologs
+1772	tguttata_homolog_chrom_start	Zebra Finch chromosome/scaffold start (bp)	homologs
+1773	tguttata_homolog_chrom_end	Zebra Finch chromosome/scaffold end (bp)	homologs
+1774	tguttata_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1775	tguttata_homolog_subtype	Last common ancestor with Zebra Finch	homologs
+1776	tguttata_homolog_orthology_type	Zebra Finch homology type	homologs
+1777	tguttata_homolog_perc_id	%id. target Zebra Finch gene identical to query gene	homologs
+1778	tguttata_homolog_perc_id_r1	%id. query gene identical to target Zebra Finch gene	homologs
+1779	tguttata_homolog_goc_score	Zebra Finch Gene-order conservation score	homologs
+1780	tguttata_homolog_wga_coverage	Zebra Finch Whole-genome alignment coverage	homologs
+1781	tguttata_homolog_dn	dN with Zebra Finch	homologs
+1782	tguttata_homolog_ds	dS with Zebra Finch	homologs
+1783	tguttata_homolog_orthology_confidence	Zebra Finch orthology confidence [0 low, 1 high]	homologs
+1784	drerio_homolog_ensembl_gene	Zebrafish gene stable ID	homologs
+1785	drerio_homolog_associated_gene_name	Zebrafish gene name	homologs
+1786	drerio_homolog_ensembl_peptide	Zebrafish protein or transcript stable ID	homologs
+1787	drerio_homolog_chromosome	Zebrafish chromosome/scaffold name	homologs
+1788	drerio_homolog_chrom_start	Zebrafish chromosome/scaffold start (bp)	homologs
+1789	drerio_homolog_chrom_end	Zebrafish chromosome/scaffold end (bp)	homologs
+1790	drerio_homolog_canonical_transcript_protein	Query protein or transcript ID	homologs
+1791	drerio_homolog_subtype	Last common ancestor with Zebrafish	homologs
+1792	drerio_homolog_orthology_type	Zebrafish homology type	homologs
+1793	drerio_homolog_perc_id	%id. target Zebrafish gene identical to query gene	homologs
+1794	drerio_homolog_perc_id_r1	%id. query gene identical to target Zebrafish gene	homologs
+1795	drerio_homolog_goc_score	Zebrafish Gene-order conservation score	homologs
+1796	drerio_homolog_wga_coverage	Zebrafish Whole-genome alignment coverage	homologs
+1797	drerio_homolog_dn	dN with Zebrafish	homologs
+1798	drerio_homolog_ds	dS with Zebrafish	homologs
+1799	drerio_homolog_orthology_confidence	Zebrafish orthology confidence [0 low, 1 high]	homologs
+1800	hsapiens_paralog_ensembl_gene	Human paralogue gene stable ID	homologs
+1801	hsapiens_paralog_associated_gene_name	Human paralogue associated gene name	homologs
+1802	hsapiens_paralog_ensembl_peptide	Human paralogue protein or transcript ID	homologs
+1803	hsapiens_paralog_chromosome	Human paralogue chromosome/scaffold name	homologs
+1804	hsapiens_paralog_chrom_start	Human paralogue chromosome/scaffold start (bp)	homologs
+1805	hsapiens_paralog_chrom_end	Human paralogue chromosome/scaffold end (bp)	homologs
+1806	hsapiens_paralog_canonical_transcript_protein	Paralogue query protein or transcript ID	homologs
+1807	hsapiens_paralog_subtype	Paralogue last common ancestor with Human	homologs
+1808	hsapiens_paralog_orthology_type	Human paralogue homology type	homologs
+1809	hsapiens_paralog_perc_id	Paralogue %id. target Human gene identical to query gene	homologs
+1810	hsapiens_paralog_perc_id_r1	Paralogue %id. query gene identical to target Human gene	homologs
+1811	hsapiens_paralog_dn	Paralogue dN with Human	homologs
+1812	hsapiens_paralog_ds	Paralogue dS with Human	homologs
+1813	hsapiens_paralog_paralogy_confidence	Human paralogy confidence [0 low, 1 high]	homologs
+1814	ensembl_gene_id	Gene stable ID	snp
+1815	ensembl_transcript_id	Transcript stable ID	snp
+1816	ensembl_peptide_id	Protein stable ID	snp
+1817	chromosome_name	Chromosome/scaffold name	snp
+1818	start_position	Gene start (bp)	snp
+1819	end_position	Gene end (bp)	snp
+1820	strand	Strand	snp
+1821	band	Karyotype band	snp
+1822	external_gene_name	Gene name	snp
+1823	external_gene_source	Source of gene name	snp
+1824	transcript_count	Transcript count	snp
+1825	percentage_gene_gc_content	Gene % GC content	snp
+1826	description	Gene description	snp
+1827	variation_name	Variant name	snp
+1828	germ_line_variation_source	Variant source	snp
+1829	source_description	Variant source description	snp
+1830	allele	Variant alleles	snp
+1831	validated	Variant supporting evidence	snp
+1832	mapweight	Mapweight	snp
+1833	minor_allele	Minor allele	snp
+1834	minor_allele_freq	Minor allele frequency	snp
+1835	minor_allele_count	Minor allele count	snp
+1836	clinical_significance	Clinical significance	snp
+1837	transcript_location	Transcript location (bp)	snp
+1838	snp_chromosome_strand	Variant chromosome Strand	snp
+1839	peptide_location	Protein location (aa)	snp
+1840	chromosome_start	chromosome/scaffold position start (bp)	snp
+1841	chromosome_end	Chromosome/scaffold position end (bp)	snp
+1842	polyphen_prediction_2076	PolyPhen prediction	snp
+1843	polyphen_score_2076	PolyPhen score	snp
+1844	sift_prediction_2076	SIFT prediction	snp
+1845	sift_score_2076	SIFT score	snp
+1846	distance_to_transcript_2076	Distance to transcript	snp
+1847	cds_start_2076	CDS start	snp
+1848	cds_end_2076	CDS end	snp
+1849	peptide_shift	Protein allele	snp
+1850	synonymous_status	Variant consequence	snp
+1851	allele_string_2076	Consequence specific allele	snp
+1852	ensembl_gene_id	Gene stable ID	snp_somatic
+1853	ensembl_transcript_id	Transcript stable ID	snp_somatic
+1854	ensembl_peptide_id	Protein stable ID	snp_somatic
+1855	chromosome_name	Chromosome/scaffold name	snp_somatic
+1856	start_position	Gene start (bp)	snp_somatic
+1857	end_position	Gene end (bp)	snp_somatic
+1858	strand	Strand	snp_somatic
+1859	band	Karyotype band	snp_somatic
+1860	external_gene_name	Gene name	snp_somatic
+1861	external_gene_source	Source of gene name	snp_somatic
+1862	transcript_count	Transcript count	snp_somatic
+1863	percentage_gene_gc_content	Gene % GC content	snp_somatic
+1864	description	Gene description	snp_somatic
+1865	somatic_variation_name	Variant name	snp_somatic
+1866	somatic_source_name	Variant source	snp_somatic
+1867	somatic_source_description	Variant source description	snp_somatic
+1868	somatic_allele	Variant alleles	snp_somatic
+1869	somatic_validated	Variant supporting evidence	snp_somatic
+1870	somatic_mapweight	Mapweight	snp_somatic
+1871	somatic_minor_allele	Minor allele	snp_somatic
+1872	somatic_minor_allele_freq	Minor allele frequency	snp_somatic
+1873	somatic_minor_allele_count	Minor allele count	snp_somatic
+1874	somatic_clinical_significance	Clinical significance	snp_somatic
+1875	somatic_transcript_location	Transcript location (bp)	snp_somatic
+1876	somatic_snp_chromosome_strand	Variant chromosome/scaffold strand	snp_somatic
+1877	somatic_peptide_location	Protein location (aa)	snp_somatic
+1878	somatic_chromosome_start	Chromosome/scaffold position start (bp)	snp_somatic
+1879	somatic_chromosome_end	Chromosome/scaffold position end (bp)	snp_somatic
+1880	mart_transcript_variation_som__dm_polyphen_prediction_2076	PolyPhen prediction	snp_somatic
+1881	mart_transcript_variation_som__dm_polyphen_score_2076	PolyPhen score	snp_somatic
+1882	mart_transcript_variation_som__dm_sift_prediction_2076	SIFT prediction	snp_somatic
+1883	mart_transcript_variation_som__dm_sift_score_2076	SIFT score	snp_somatic
+1884	mart_transcript_variation_som__dm_distance_to_transcript_2076	Distance to transcript	snp_somatic
+1885	somatic_cds_start_2076	CDS start	snp_somatic
+1886	somatic_cds_end_2076	CDS end	snp_somatic
+1887	somatic_peptide_shift	Protein allele	snp_somatic
+1888	somatic_synonymous_status	Variant consequence	snp_somatic
+1889	mart_transcript_variation_som__dm_allele_string_2076	Consequence specific allele	snp_somatic
+1890	transcript_exon_intron	Unspliced (Transcript)	sequences
+1891	gene_exon_intron	Unspliced (Gene)	sequences
+1892	transcript_flank	Flank (Transcript)	sequences
+1893	gene_flank	Flank (Gene)	sequences
+1894	coding_transcript_flank	Flank-coding region (Transcript)	sequences
+1895	coding_gene_flank	Flank-coding region (Gene)	sequences
+1896	5utr	5' UTR	sequences
+1897	3utr	3' UTR	sequences
+1898	gene_exon	Exon sequences	sequences
+1899	cdna	cDNA sequences	sequences
+1900	coding	Coding sequence	sequences
+1901	peptide	Peptide	sequences
+1902	upstream_flank	upstream_flank	sequences
+1903	downstream_flank	downstream_flank	sequences
+1904	ensembl_gene_id	Gene stable ID	sequences
+1905	description	Gene description	sequences
+1906	external_gene_name	Gene name	sequences
+1907	external_gene_source	Source of gene name	sequences
+1908	chromosome_name	Chromosome/scaffold name	sequences
+1909	start_position	Gene start (bp)	sequences
+1910	end_position	Gene end (bp)	sequences
+1911	gene_biotype	Gene type	sequences
+1912	family	Ensembl Protein Family ID(s)	sequences
+1913	uniparc	UniParc ID	sequences
+1914	uniprotswissprot	UniProtKB/Swiss-Prot ID	sequences
+1915	uniprotsptrembl	UniProtKB/TrEMBL ID	sequences
+1916	cdna_coding_start	CDS start (within cDNA)	sequences
+1917	cdna_coding_end	CDS end (within cDNA)	sequences
+1918	5_utr_start	5' UTR start	sequences
+1919	5_utr_end	5' UTR end	sequences
+1920	3_utr_start	3' UTR start	sequences
+1921	3_utr_end	3' UTR end	sequences
+1922	ensembl_transcript_id	Transcript stable ID	sequences
+1923	ensembl_peptide_id	Protein stable ID	sequences
+1924	transcript_biotype	Transcript type	sequences
+1925	strand	Strand	sequences
+1926	transcript_start	Transcript start (bp)	sequences
+1927	transcript_end	Transcript end (bp)	sequences
+1928	transcription_start_site	Transcription start site (TSS)	sequences
+1929	transcript_length	Transcript length (including UTRs and CDS)	sequences
+1930	cds_length	CDS Length	sequences
+1931	cds_start	CDS start	sequences
+1932	cds_end	CDS end	sequences
+1933	ensembl_exon_id	Exon stable ID	sequences
+1934	exon_chrom_start	Exon region start (bp)	sequences
+1935	exon_chrom_end	Exon region end (bp)	sequences
+1936	strand	Strand	sequences
+1937	rank	Exon rank in transcript	sequences
+1938	phase	Start phase	sequences
+1939	end_phase	End phase	sequences
+1940	cdna_coding_start	cDNA coding start	sequences
+1941	cdna_coding_end	cDNA coding end	sequences
+1942	genomic_coding_start	Genomic coding start	sequences
+1943	genomic_coding_end	Genomic coding end	sequences
+1944	is_constitutive	Constitutive exon	sequences

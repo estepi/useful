@@ -1,8 +1,9 @@
 #finalMatrixCOmparison
 library(data.table)
 library(stringr)
-INCFile<-"test.tab"
-OUTFile<-"test_NA_NewN3.tab"
+
+INCFile<-"/home/emancini/Dropbox (CRG)/Personal_Gosia/Shared/GosiaAndEstefi/lastVtHsa/default/INCLUSION_LEVELS_FULL-Hsa331-hg19.tab"
+OUTFile<-"/home/emancini/Dropbox (CRG)/Personal_Gosia/Shared/GosiaAndEstefi/lastVtHsa/default/test_NA_NewN3.tab"
 source("replaceNA.R")
 replaceNA(INCFile, OUTFile)
 #########################################

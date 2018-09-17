@@ -6,18 +6,21 @@ library(pheatmap)
 library(ggplot2)
 library(RColorBrewer)
 library(limma)
-genesLRT<-read.table("/home/emancini/Dropbox (CRG)/Personal_Gosia/Shared/GosiaAndEstefi/GE_hg19_noBadSamples/lrt_table_hg19.tab", header=T, row.names = 1)
-dim(genesLRT)#11103
+genesLRT<-read.table("/home/emancini/Dropbox (CRG)/Personal_Gosia/Shared/GosiaAndEstefi/GE_hg19_noBadSamples/lrt_table_hg19_HF.tab", header=T, row.names = 1)
+dim(genesLRT)#6947
 genesLRT[1:5,306:308]
 genesLRT$padjust<-p.adjust(genesLRT$PValue)
-onlyValues<-genesLRT[,1:305]; dim(onlyValues)#11103 filas
+onlyValues<-genesLRT[,1:305]; dim(onlyValues)#6947 filas
 affected<-onlyValues
-affected[abs(affected)>1.5]<-1
-affected[abs(affected)<1.5]<-0
-affected[1:5,1:5]
-dim(affected)#11103
 kdsNames<-sub("logFC.group","",colnames(affected)); length(kdsNames)
 colnames(affected)<-kdsNames
+
+
+affected[abs(affected)<1.5]<-0
+affected[abs(affected)>1.5]<-1
+affected[1:5,1:5]
+dim(affected)#6947
+
 ####################################
 xx <- as.list(org.Hs.egENSEMBL2EG); length(xx) #28589
 # Gets the entrez gene IDs for the first five Ensembl IDs
@@ -27,21 +30,30 @@ universeGeneIds<-as.character(rownames(affected))
 universeEntrezI<-match(as.character(universeGeneIds), names(entrez)); head(entrez);names(entrez);length(entrez)
 affected$Entrez<-entrez[universeEntrezI]
 uc<-affected$Entrez[!is.na(affected$Entrez)]
-length(uc)#10454 com ENTREZ ID
+length(uc)#6700 com ENTREZ ID
 affected[1:10,300:306]; dim(affected)
 head(affected)
 testDF<-affected[,1:305]
 colnames(testDF)<-kdsNames
-colSums(testDF)
-
+df<-as.data.frame(colSums(testDF))
+colnames(df)<-"number"
+df$KD<-rownames(df)
+head(df)
+####################################
+setwd("/home/emancini/Dropbox (CRG)/Personal_Gosia/Shared/GosiaAndEstefi/GO/TestGO/")
+pdf("GO_KDs_GEHF.pdf", width = 11.69,  height = 8.27)
+ggplot(df, aes(x = reorder(KD, number), y = number)) + geom_bar(stat = "identity", width=0.5) +
+  theme(  axis.text.x = element_text(angle = 90, hjust = 1, size = 3))
+dev.off()
+####################################
 ll<-apply(testDF, 2, function(x) {
   se<-affected$Entrez[x==1]
   sse<-se[!is.na(se)]
   return(sse)} )
 length(ll)
 length(uc)
-  length(uc)
-  res1<-lapply(ll, function(x){
+
+res1<-lapply(ll, function(x){
     if( length(x) > 0 ) 
     {
       params<-new("GOHyperGParams",
@@ -60,11 +72,21 @@ length(uc)
     }
   }
   )
-  dim(res1[[2]])
-  save(res1, file="res2Genes.RData")
+  head(res1[[1]])
+  save(res1, file="res15GenesHF.RData")
   rn<-lapply(res1, rownames)
-  all<-unique(unlist(rn));length(all)#13686
-  ######################################################
+  all<-unique(unlist(rn));length(all)#8
+######################################################
+pvals <- 
+    lapply(res1, function(x)  
+    {
+      if(!is.null(dim(x)))
+      { 
+        x%>% select(padjust)  
+      }
+    }
+    )
+  
   oddsRatios <- 
     lapply(res1, function(x)  
     {
@@ -75,18 +97,24 @@ length(uc)
     }
     )
   
+  
   kds  <-lapply(oddsRatios, function(x) {
     kd<-dim(x)[1]
     return(kd)
   }
   )
+
   length(oddsRatios)
   vv<-unlist(kds)
   nn<-rep(names(vv), vv); length(nn)
   values<-unlist(oddsRatios)
   length(values)
+  pvalsul<-unlist(pvals)
+  length(pvalsul)#1031845
   values[values>20]<-20
   summary(values)
+  values[pvalsul<0.1]<-1
+  length(values)#1031845
   rrn<-lapply(oddsRatios, rownames)
   length(values)
   head(values)
@@ -94,6 +122,8 @@ length(uc)
   head(dfPlot)
   colnames(dfPlot)<-c("GO","EF","KD")
   str(dfPlot)
+
+  
   setwd("/home/emancini/Dropbox (CRG)/Personal_Gosia/Shared/GosiaAndEstefi/GO/TestGO/")
   categFull<-read.csv("../GO_all_hg19.cleaned.txt", sep=",", header=F);
   head(categFull)
@@ -109,14 +139,14 @@ length(uc)
   finaldfPlot<-dfPlot[which(!is.na(selectedCat)),]
   head(finaldfPlot)
   
-  pdf("GO_GENES_selected_cat_log2.pdf", width = 11.69,  height = 8.27)
+  pdf("GO_GENES_selected_cat_log15_pval.pdf", width = 11.69,  height = 8.27)
   ggplot(finaldfPlot, aes(x = KD, y = GO, fill = EF)) +  geom_tile() +  scale_fill_gradient(low = "white", high = "red")+
     theme_classic()+
     theme(  axis.text.x = element_text(angle = 90, hjust = 1, size = 3),
             axis.text.y = element_text(size = 5)
     )
   dev.off()
-  
+getwd()
     ########################################################
   dfPlotSub<-filter(dfPlot, GO%in%goes$GO)
   dim(dfPlotSub)
@@ -133,15 +163,10 @@ length(uc)
   dim(genesAff)
   head(genesAff)
   
-  write.table(data.frame(row.names(affected), 
-                                                affected$Entrez), file="Affected_GENES.tab", sep="\t")
-    #######################vennPlot:
+write.table(data.frame(row.names(affected), 
+  affected$Entrez), file="Affected_GENES.tab", sep="\t")
+#######################vennPlot:
 TotalAffected<-union(genesAff$`row.names(genesLRT)`, ASAff$dPSI_Ens.geneID)
 auxdf<-data.frame(TotalAffected%in%genesAff$`row.names(genesLRT)`,
                     TotalAffected%in%ASAff$dPSI_Ens.geneID)
 
-vennDiagram(auxdf)  
-
-head(res1[[1]])
-head(goes)
-genesLRT[1:5, 300:ncol(genesLRT)]

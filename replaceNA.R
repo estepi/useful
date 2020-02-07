@@ -3,11 +3,12 @@ replaceNA<-function(INCFile,
   ){
   #######################################################################
   #READ INPUT FILE
-  INCData <- read.csv(INCFile, 
-                      header=T, 
-                      sep="\t", 
-                      stringsAsFactors = F, row.names =2 )
-  #######################################################################
+  INCData <- read.csv(INCFile, header=T,
+                      sep="\t",
+                      stringsAsFactors = F,
+                      row.names =2 )
+  
+    #######################################################################
   #subset PSI values
   onlyValues<-INCData[,6:ncol(INCData)]
   #subset QUAL values

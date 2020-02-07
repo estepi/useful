@@ -7,14 +7,15 @@ replaceNAI<-function(INCFile,
   INCData <- read.csv(INCFile, 
                       header=T, 
                       sep="\t", 
-                      stringsAsFactors = F, row.names =2 )
+                      stringsAsFactors = F,
+                      row.names = 1)
   #######################################################################
   #subset PSI values
-  onlyValues<-INCData[,6:ncol(INCData)]
+  onlyValues<-INCData[,7:ncol(INCData)]
   #subset QUAL values
   Qvals <- grep("\\.Q$", colnames(onlyValues))
-  qualValues <- onlyValues[, Qvals]
-  psiValues  <- onlyValues[,-Qvals]
+  qualValues <-onlyValues[, Qvals]
+  psiValues  <-onlyValues[,-Qvals]
   finalValues<-matrix(0, ncol=ncol(psiValues), nrow=nrow(psiValues))
   colnames(finalValues)<-colnames(onlyValues)[-Qvals]
   #######################################################################
@@ -30,7 +31,9 @@ replaceNAI<-function(INCFile,
   correctedPsiVal[indexes_NewN3]<-"NAnew3"
   originalNA<-is.na(psiValues)
   correctedPsiVal[originalNA]<-"NAold"
-  fullNAS<-cbind(INCData[, 1:5], correctedPsiVal)
+  #
+  fullNAS<-cbind(INCData[, 1:6], correctedPsiVal)
+  fullNAS[1:5,1:6]
   #####################################################
   #compute and print STATS:
   tVal<-length(originalNA)# 235328422
@@ -58,16 +61,16 @@ replaceNAI<-function(INCFile,
   ii<-which(fullNAS$COMPLEX=="IR")
   IRCqual<-qualValues[ii,]
   # IRCpsi<-fullNAS[fullNAS$COMPLEX=="IR-C" | fullNAS$COMPLEX=="IR-S" ,6:ncol(fullNAS)]
-  IRCpsi<-fullNAS[ii ,6:ncol(fullNAS)]
-  #####################################################################
+    IRCpsi<-fullNAS[ii ,7:ncol(fullNAS)]
+    ###################################################################
     pval<-apply(IRCqual, 2, function(x) 
-  { 
-    as.numeric(str_match(
-    matrix( unlist(strsplit(x, ",")), ncol=6, byrow = T)[,5],"(.*)@")[,2])
-  })
-  pvalCorrected<-apply(pval, 2, p.adjust)
-  pvalCorrected[pvalCorrected<0.05]<-"NAI"
-  ######################################################################
+    { 
+      as.numeric(str_match(
+      matrix( unlist(strsplit(x, ",")), ncol=6, byrow = T)[,5],"(.*)@")[,2])
+    })
+    pvalCorrected<-apply(pval, 2, p.adjust)
+    pvalCorrected[pvalCorrected<0.05]<-"NAI"
+    ######################################################################
   Nis<-t(apply(pvalCorrected, 1, function(x)
   { str_count(x, "NAI")}))
   indexes_NAI<-which(Nis !=0, arr.in=TRUE)
@@ -88,7 +91,7 @@ replaceNAI<-function(INCFile,
   df2<-correctedIRpsi
   
   df1[match(rownames(df2) , rownames(df1)), ] <- df2
-  fullNASIR<-cbind(INCData[, 1:5], df1)
+  fullNASIR<-cbind(INCData[, 1:6], df1)
   
   message("pval analyzed (for correction): ",length(pvalCorrected))
   message("pval corrected <0.05: ",m4)

@@ -1,8 +1,6 @@
-# 
+# Some useful scripts for parsing files
 
-Some useful scripts for parsing files
-
-* Replace NAs: Analyze NAs in VAST-TOOLS INCLUSION final Table: 
+##  Replace NAs: Analyze NAs in VAST-TOOLS INCLUSION final Table: 
 
 * We count how many NAs contain a quality score for every PSI value computed. If they have more than 3, we replace this PSI value with NAnew3. 
 
@@ -14,8 +12,7 @@ Some useful scripts for parsing files
 * Input is the default vast-tools table (INCLUSION-...)
 * Output: desired output, script 1: replacing NAnew3+NAI
 
-
-How to run:
+## How to run:
 - 1.- Download scripts in your desired folder.
 - 2.- Load libraries:
 
@@ -36,4 +33,3 @@ library(stringr)
 - replaceNA(INCFile, OUTFile)
 - replaceNAI(INCFile, OUTFile2)
 
-#############################################

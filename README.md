@@ -3,9 +3,8 @@
 ##  Replace NAs: Analyze NAs in VAST-TOOLS INCLUSION final Table: 
 
 * We count how many NAs contain a quality score for every PSI value computed. If they have more than 3, we replace this PSI value with NAnew3. 
-
 * Input is the default vast-tools table (INCLUSION-...)
--Output: desired output, script 1: only replacing NAnew3
+* Output: desired output, script 1: only replacing NAnew3
 
 * If INCLUSION table was produced using last version of vast-tools, we can replace Intron Retention PSI value with NAI  if the adjusted pvalue for the "read umbalance" is below 0.05. 
 
